@@ -1,0 +1,291 @@
+[
+    {
+      "plantID": 1,
+      "plant_name": "Basil",
+      "growth_time": "4-6 weeks",
+      "water_requirement": "Moderate",
+      "soil_type": "Well-draining, rich soil",
+      "herbal_uses": "Used for digestion, anti-inflammatory, and stress relief",
+      "plant_category": "Herbal"
+    },
+    {
+      "plantID": 2,
+      "plant_name": "Tomato",
+      "growth_time": "8-12 weeks",
+      "water_requirement": "High",
+      "soil_type": "Loamy, well-draining",
+      "herbal_uses": "Rich in antioxidants, supports heart health",
+      "plant_category": "Food"
+    },
+    {
+      "plantID": 3,
+      "plant_name": "Mint",
+      "growth_time": "6-8 weeks",
+      "water_requirement": "Moderate",
+      "soil_type": "Moist, well-draining",
+      "herbal_uses": "Aids digestion, relieves headaches",
+      "plant_category": "Herbal"
+    },
+    {
+      "plantID": 4,
+      "plant_name": "Carrot",
+      "growth_time": "10-12 weeks",
+      "water_requirement": "Moderate",
+      "soil_type": "Sandy, well-draining",
+      "herbal_uses": "Improves vision, boosts immunity",
+      "plant_category": "Food"
+    },
+    {
+      "plantID": 5,
+      "plant_name": "Lavender",
+      "growth_time": "12-16 weeks",
+      "water_requirement": "Low",
+      "soil_type": "Well-draining, sandy soil",
+      "herbal_uses": "Promotes relaxation, improves sleep quality",
+      "plant_category": "Herbal"
+    },
+    {
+      "plantID": 6,
+      "plant_name": "Lettuce",
+      "growth_time": "6-8 weeks",
+      "water_requirement": "High",
+      "soil_type": "Fertile, well-draining",
+      "herbal_uses": "Rich in vitamins, aids digestion",
+      "plant_category": "Food"
+    },
+    {
+      "plantID": 7,
+      "plant_name": "Rosemary",
+      "growth_time": "12-16 weeks",
+      "water_requirement": "Low",
+      "soil_type": "Well-draining, sandy",
+      "herbal_uses": "Boosts memory, supports digestion",
+      "plant_category": "Herbal"
+    },
+    {
+      "plantID": 8,
+      "plant_name": "Cabbage",
+      "growth_time": "8-12 weeks",
+      "water_requirement": "Moderate",
+      "soil_type": "Fertile, well-draining",
+      "herbal_uses": "Rich in antioxidants, promotes gut health",
+      "plant_category": "Food"
+    },
+    {
+      "plantID": 9,
+      "plant_name": "Thyme",
+      "growth_time": "8-12 weeks",
+      "water_requirement": "Low",
+      "soil_type": "Well-draining, sandy",
+      "herbal_uses": "Supports respiratory health, anti-bacterial properties",
+      "plant_category": "Herbal"
+    },
+    {
+      "plantID": 10,
+      "plant_name": "Spinach",
+      "growth_time": "6-8 weeks",
+      "water_requirement": "High",
+      "soil_type": "Fertile, well-draining",
+      "herbal_uses": "High in iron, supports heart health",
+      "plant_category": "Food"
+    },
+    {
+      "plantID": 11,
+      "plant_name": "Ginger",
+      "growth_time": "8-10 months",
+      "water_requirement": "Moderate",
+      "soil_type": "Loose, well-draining",
+      "herbal_uses": "Anti-inflammatory, aids digestion",
+      "plant_category": "Herbal"
+    },
+    {
+      "plantID": 12,
+      "plant_name": "Pepper",
+      "growth_time": "8-12 weeks",
+      "water_requirement": "Moderate",
+      "soil_type": "Loamy, well-draining",
+      "herbal_uses": "Rich in vitamins, boosts metabolism",
+      "plant_category": "Food"
+    },
+    {
+      "plantID": 13,
+      "plant_name": "Chamomile",
+      "growth_time": "6-10 weeks",
+      "water_requirement": "Low",
+      "soil_type": "Sandy, well-draining",
+      "herbal_uses": "Relieves stress, improves sleep",
+      "plant_category": "Herbal"
+    },
+    {
+      "plantID": 14,
+      "plant_name": "Onion",
+      "growth_time": "10-14 weeks",
+      "water_requirement": "Moderate",
+      "soil_type": "Fertile, well-draining",
+      "herbal_uses": "Boosts immunity, rich in antioxidants",
+      "plant_category": "Food"
+    },
+    {
+      "plantID": 15,
+      "plant_name": "Garlic",
+      "growth_time": "8-9 months",
+      "water_requirement": "Low",
+      "soil_type": "Well-draining, sandy",
+      "herbal_uses": "Supports heart health, has antibacterial properties",
+      "plant_category": "Herbal"
+    },
+    {
+      "plantID": 16,
+      "plant_name": "Oregano",
+      "growth_time": "6-8 weeks",
+      "water_requirement": "Moderate",
+      "soil_type": "Well-draining, sandy",
+      "herbal_uses": "Antibacterial properties, supports digestion",
+      "plant_category": "Herbal"
+    },
+    {
+      "plantID": 17,
+      "plant_name": "Pumpkin",
+      "growth_time": "12-16 weeks",
+      "water_requirement": "High",
+      "soil_type": "Fertile, well-draining",
+      "herbal_uses": "Rich in fiber, supports heart health",
+      "plant_category": "Food"
+    },
+    {
+      "plantID": 18,
+      "plant_name": "Aloe Vera",
+      "growth_time": "8-10 weeks",
+      "water_requirement": "Low",
+      "soil_type": "Sandy, well-draining",
+      "herbal_uses": "Soothes burns, promotes skin healing",
+      "plant_category": "Herbal"
+    },
+    {
+      "plantID": 19,
+      "plant_name": "Cilantro",
+      "growth_time": "3-4 weeks",
+      "water_requirement": "Moderate",
+      "soil_type": "Loamy, well-draining",
+      "herbal_uses": "Aids digestion, rich in antioxidants",
+      "plant_category": "Herbal"
+    },
+    {
+      "plantID": 19,
+      "plant_name": "Strawberry",
+      "growth_time": "12-16 weeks",
+      "water_requirement": "High",
+      "soil_type": "Loamy, well-draining",
+      "herbal_uses": "Rich in vitamin C, supports heart health",
+      "plant_category": "Food"
+    },
+    {
+      "plantID": 20,
+      "plant_name": "Echinacea",
+      "growth_time": "10-12 weeks",
+      "water_requirement": "Low",
+      "soil_type": "Well-draining, sandy",
+      "herbal_uses": "Boosts immune system, reduces inflammation",
+      "plant_category": "Herbal"
+    },
+    {
+      "plantID": 21,
+      "plant_name": "Beetroot",
+      "growth_time": "8-10 weeks",
+      "water_requirement": "Moderate",
+      "soil_type": "Fertile, well-draining",
+      "herbal_uses": "Supports heart health, improves blood circulation",
+      "plant_category": "Food"
+    },
+    {
+      "plantID": 22,
+      "plant_name": "Dandelion",
+      "growth_time": "6-8 weeks",
+      "water_requirement": "Low",
+      "soil_type": "Well-draining, loamy",
+      "herbal_uses": "Supports liver function, rich in vitamins",
+      "plant_category": "Herbal"
+    },
+    {
+      "plantID": 23,
+      "plant_name": "Zucchini",
+      "growth_time": "6-8 weeks",
+      "water_requirement": "High",
+      "soil_type": "Loamy, well-draining",
+      "herbal_uses": "Rich in fiber, supports digestion",
+      "plant_category": "Food"
+    },
+    {
+      "plantID": 24,
+      "plant_name": "Turmeric",
+      "growth_time": "8-10 months",
+      "water_requirement": "Moderate",
+      "soil_type": "Well-draining, sandy",
+      "herbal_uses": "Anti-inflammatory, supports brain health",
+      "plant_category": "Herbal"
+    },
+    {
+      "plantID": 25,
+      "plant_name": "Blueberry",
+      "growth_time": "12-20 weeks",
+      "water_requirement": "High",
+      "soil_type": "Acidic, well-draining",
+      "herbal_uses": "Rich in antioxidants, supports brain function",
+      "plant_category": "Food"
+    },
+    {
+      "plantID": 26,
+      "plant_name": "Parsley",
+      "growth_time": "6-8 weeks",
+      "water_requirement": "Moderate",
+      "soil_type": "Loamy, well-draining",
+      "herbal_uses": "Supports kidney health, rich in vitamins",
+      "plant_category": "Herbal"
+    },
+    {
+      "plantID": 27,
+      "plant_name": "Kale",
+      "growth_time": "6-8 weeks",
+      "water_requirement": "Moderate",
+      "soil_type": "Loamy, well-draining",
+      "herbal_uses": "Rich in vitamins, supports heart health",
+      "plant_category": "Food"
+    },
+    {
+      "plantID": 28,
+      "plant_name": "Pineapple",
+      "growth_time": "1-2 years",
+      "water_requirement": "Moderate",
+      "soil_type": "Well-draining, sandy",
+      "herbal_uses": "Rich in enzymes, aids digestion",
+      "plant_category": "Food"
+    },
+    {
+      "plantID": 11,
+      "plant_name": "Eggplant",
+      "growth_time": "8-12 weeks",
+      "water_requirement": "Moderate",
+      "soil_type": "Loamy, well-draining",
+      "herbal_uses": "Rich in antioxidants, supports heart health",
+      "plant_category": "Food"
+    },
+    {
+      "plantID": 12,
+      "plant_name": "Ampalaya",
+      "growth_time": "10-12 weeks",
+      "water_requirement": "Moderate to High",
+      "soil_type": "Loamy, well-draining",
+      "herbal_uses": "Regulates blood sugar, boosts immunity",
+      "plant_category": "Food & Herbal"
+    },
+    {
+      "plantID": 13,
+      "plant_name": "Lagundi",
+      "growth_time": "12-16 weeks",
+      "water_requirement": "Moderate",
+      "soil_type": "Well-draining, loamy",
+      "herbal_uses": "Treats coughs, reduces inflammation",
+      "plant_category": "Herbal"
+    }
+]
+  
