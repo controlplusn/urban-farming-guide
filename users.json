@@ -10,5 +10,17 @@
         "name": "reina",
         "email": "reina@gmail.com",
         "password": "reina123"
+    },
+    {
+        "user_id": 4,
+        "name": "rein",
+        "email": "rein@gmail.com",
+        "password": "123"
+    },
+    {
+        "user_id": 5,
+        "name": "reinaaa",
+        "email": "reina1@gmail.com",
+        "password": "reina1"
     }
 ]

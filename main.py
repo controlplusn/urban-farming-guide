@@ -13,7 +13,10 @@ def load_data(file):
     if not os.path.exists(file):
         return []
     with open(file, "r") as f:
-        return json.load(f)
+        try:
+            return json.load(f)
+        except json.JSONDecodeError:
+            return []
 
 # Function to save JSON data
 def save_data(file, data):
@@ -41,21 +44,33 @@ def get_password(prompt="Enter password: "):
 # Generate unique user ID
 def generate_user_id():
     users = load_data(USER_DB)
-    return max(user["user_id"] for user in users) + 1 if users else 1
+    return max((user["user_id"] for user in users), default=0) + 1
 
 # Register a new user
 def register_user():
     users = load_data(USER_DB)
     user_id = generate_user_id()
     print(f"Generated User ID: {user_id}")  
-    name = input("Enter name: ")
-    email = input("Enter email: ")
-    password = get_password("Enter password: ")
-
+    name = input("Enter name: ").strip()
+    email = input("Enter email: ").strip()
+    
+    if not name or not email:
+        print("⚠️ Name and email cannot be empty!")
+        return
+    
     if any(user["email"] == email for user in users):
         print("⚠️ Email already registered!")
         return
-
+    
+    if any(user["name"].lower() == name.lower() for user in users):
+        print("⚠️ Username already taken!")
+        return
+    
+    password = get_password("Enter password: ")
+    if not password:
+        print("⚠️ Password cannot be empty!")
+        return
+    
     users.append({"user_id": user_id, "name": name, "email": email, "password": password})
     save_data(USER_DB, users)
     print("✅ User registered successfully!")
@@ -63,7 +78,7 @@ def register_user():
 # User login function
 def login():
     users = load_data(USER_DB)
-    email = input("Enter email: ")
+    email = input("Enter email: ").strip()
     password = get_password("Enter password: ")
 
     for user in users:
@@ -76,14 +91,18 @@ def login():
 # Generate unique plant ID
 def generate_plant_id():
     plants = load_data(PLANT_DB)
-    return max(plant["plant_id"] for plant in plants) + 1 if plants else 1
+    return max((plant["plant_id"] for plant in plants), default=0) + 1
 
 # Add a plant
 def add_plant():
     plants = load_data(PLANT_DB)
     plant_id = generate_plant_id()
-    plant_name = input("Enter plant name: ")
-    water_schedule = input("Enter watering schedule: ")
+    plant_name = input("Enter plant name: ").strip()
+    water_schedule = input("Enter watering schedule: ").strip()
+
+    if not plant_name or not water_schedule:
+        print("⚠️ Plant name and watering schedule cannot be empty!")
+        return
 
     plants.append({"plant_id": plant_id, "name": plant_name, "water_schedule": water_schedule})
     save_data(PLANT_DB, plants)
@@ -100,10 +119,13 @@ def remove_plant():
     for plant in plants:
         print(f"{plant['plant_id']}. {plant['name']}")
 
-    plant_id = int(input("Enter plant ID to remove: "))
-    plants = [plant for plant in plants if plant["plant_id"] != plant_id]
-    save_data(PLANT_DB, plants)
-    print("✅ Plant removed successfully!")
+    try:
+        plant_id = int(input("Enter plant ID to remove: "))
+        plants = [plant for plant in plants if plant["plant_id"] != plant_id]
+        save_data(PLANT_DB, plants)
+        print("✅ Plant removed successfully!")
+    except ValueError:
+        print("⚠️ Invalid input! Please enter a valid plant ID.")
 
 # View users
 def show_users():
@@ -170,3 +192,4 @@ def first_panel():
 # Run the system
 if __name__ == "__main__":
     first_panel()
+    
