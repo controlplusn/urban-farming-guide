@@ -9,50 +9,50 @@ REMINDER_DB = "reminders.json"
 MAINTENANCE_DB = "maintenance.json"
 
 # Function to load JSON data
-def load_data(file):
-    if not os.path.exists(file):
+# Load data from a specific database file
+def load_data(db_file):
+    if not os.path.exists(db_file):
         return []
-    with open(file, "r") as f:
-        try:
-            return json.load(f)
-        except json.JSONDecodeError:
-            return []
+    with open(db_file, "r") as file:
+        users = json.load(file)
+        return reassign_user_ids(users)  # Adjust IDs after loading
 
-# Function to save JSON data
-def save_data(file, data):
-    with open(file, "w") as f:
-        json.dump(data, f, indent=4)
+# Save data to a specific database file
+def save_data(db_file, data):
+    with open(db_file, "w") as file:
+        json.dump(data, file, indent=4)
 
-# Password masking function
-def get_password(prompt="Enter password: "):
+# Reassign user IDs to remove gaps
+def reassign_user_ids(users):
+    for index, user in enumerate(users):
+        user["user_id"] = index + 1  # Reassign sequential IDs (1, 2, 3, ...)
+    return users
+
+# Secure password input with masking
+def get_password(prompt):
     print(prompt, end="", flush=True)
-    password = []
+    password = ""
     while True:
         char = msvcrt.getch()
-        if char == b"\r":  # Enter key
+        if char == b"\r" or char == b"\n":  # Enter key
             print("")
-            break
+            return password.strip()  # Remove accidental spaces
         elif char == b"\b":  # Backspace
             if password:
-                password.pop()
+                password = password[:-1]
                 print("\b \b", end="", flush=True)
         else:
-            password.append(char.decode("utf-8"))
+            password += char.decode("utf-8")
             print("*", end="", flush=True)
-    return "".join(password)
 
-# Generate unique user ID
-def generate_user_id():
-    users = load_data(USER_DB)
-    return max((user["user_id"] for user in users), default=0) + 1
-
-# Register a new user
+# Register a new user with ID adjustment
 def register_user():
-    users = load_data(USER_DB)
-    user_id = generate_user_id()
-    print(f"Generated User ID: {user_id}")  
+    users = load_data(USER_DB)  # Load and reassign IDs
+    user_id = len(users) + 1  # Always assign the next available ID
+    print(f"\n🔹 Generated User ID: {user_id}")  
+    
     name = input("Enter name: ").strip()
-    email = input("Enter email: ").strip()
+    email = input("Enter email: ").strip().lower()  # Convert email to lowercase
     
     if not name or not email:
         print("⚠️ Name and email cannot be empty!")
@@ -66,15 +66,15 @@ def register_user():
         print("⚠️ Username already taken!")
         return
     
-    password = get_password("Enter password: ")
-    if not password:
-        print("⚠️ Password cannot be empty!")
-        return
-    
+    password = ""
+    while not password:
+        password = get_password("Enter password: ")
+        if not password:
+            print("⚠️ Password cannot be empty! Try again.")
+
     users.append({"user_id": user_id, "name": name, "email": email, "password": password})
     save_data(USER_DB, users)
     print("✅ User registered successfully!")
-
 # User login function
 def login():
     users = load_data(USER_DB)

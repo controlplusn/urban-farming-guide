@@ -12,15 +12,27 @@
         "password": "reina123"
     },
     {
-        "user_id": 4,
+        "user_id": 3,
         "name": "rein",
         "email": "rein@gmail.com",
         "password": "123"
     },
     {
-        "user_id": 5,
+        "user_id": 4,
         "name": "reinaaa",
         "email": "reina1@gmail.com",
         "password": "reina1"
+    },
+    {
+        "user_id": 5,
+        "name": "jom",
+        "email": "jom@gmail.com",
+        "password": "jom123"
+    },
+    {
+        "user_id": 6,
+        "name": "carle",
+        "email": "carle@gmail.com",
+        "password": "carle132"
     }
 ]
