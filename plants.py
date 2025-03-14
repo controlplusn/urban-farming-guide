@@ -11,16 +11,6 @@ class Plant:
         self.herbal_uses = plant_data["herbal_uses"]
         self.plant_category = plant_data["plant_category"]
 
-    # def display_info(self):
-    #     """Displays detailed plant information."""
-    #     print("\n🌱 Plant Details 🌱")
-    #     print(f"Name: {self.plant_name}")
-    #     print(f"Growth Time: {self.growth_time}")
-    #     print(f"Water Requirement: {self.water_requirement}")
-    #     print(f"Soil Type: {self.soil_type}")
-    #     print(f"Herbal Uses: {self.herbal_uses}")
-    #     print(f"Category: {self.plant_category}\n")
-
 class PlantsDashboard:
     def __init__(self, json_file):
         
