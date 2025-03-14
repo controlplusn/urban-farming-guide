@@ -12,11 +12,14 @@
         ],
         "instructions": [
             "Cook pasta according to package directions.",
-            "In a separate pan, heat olive oil and sauté garlic.",
+            "In a separate pan, heat olive oil and saute garlic.",
             "Add chopped tomatoes, basil, oregano, salt, and pepper. Simmer for 5 minutes.",
             "Toss the cooked pasta in the sauce and serve."
         ],
-        "plant_categories": ["Food", "Herbal"]
+        "plant_categories": [
+            "Food",
+            "Herbal"
+        ]
     },
     {
         "recipeID": 2,
@@ -34,7 +37,9 @@
             "Mix the mint water with lemon juice, honey, and ice cubes.",
             "Serve chilled."
         ],
-        "plant_categories": ["Herbal"]
+        "plant_categories": [
+            "Herbal"
+        ]
     },
     {
         "recipeID": 3,
@@ -47,12 +52,15 @@
             "Salt and pepper to taste"
         ],
         "instructions": [
-            "Sauté onions and ginger in a pot until softened.",
+            "Saute onions and ginger in a pot until softened.",
             "Add carrots and vegetable broth. Bring to a boil.",
             "Simmer for 20 minutes, then blend until smooth.",
             "Season with salt and pepper and serve."
         ],
-        "plant_categories": ["Food", "Herbal"]
+        "plant_categories": [
+            "Food",
+            "Herbal"
+        ]
     },
     {
         "recipeID": 4,
@@ -67,12 +75,14 @@
             "1 tsp Baking powder"
         ],
         "instructions": [
-            "Preheat oven to 350°F (175°C). Grease a cake pan.",
+            "Preheat oven to 350\u00c2\u00b0F (175\u00c2\u00b0C). Grease a cake pan.",
             "Mix flour, sugar, baking powder, and lavender.",
             "Add eggs, butter, and lemon juice. Mix until smooth.",
             "Pour batter into pan and bake for 25-30 minutes."
         ],
-        "plant_categories": ["Herbal"]
+        "plant_categories": [
+            "Herbal"
+        ]
     },
     {
         "recipeID": 5,
@@ -86,16 +96,19 @@
             "1 tsp Oregano"
         ],
         "instructions": [
-            "Heat sesame oil in a pan and sauté garlic and ginger.",
+            "Heat sesame oil in a pan and saute garlic and ginger.",
             "Add chopped cabbage and stir-fry for 5-7 minutes.",
             "Add soy sauce and oregano. Stir and cook for an additional 2 minutes.",
             "Serve hot."
         ],
-        "plant_categories": ["Food", "Herbal"]
+        "plant_categories": [
+            "Food",
+            "Herbal"
+        ]
     },
     {
         "recipeID": 6,
-        "recipe_name": "Spinach and Garlic Sauté",
+        "recipe_name": "Spinach and Garlic Saute",
         "ingredients": [
             "2 cups Spinach",
             "2 cloves Garlic, minced",
@@ -103,11 +116,13 @@
             "Salt and pepper to taste"
         ],
         "instructions": [
-            "Heat olive oil in a pan and sauté garlic until fragrant.",
+            "Heat olive oil in a pan and saute garlic until fragrant.",
             "Add spinach and cook until wilted.",
             "Season with salt and pepper and serve."
         ],
-        "plant_categories": ["Food"]
+        "plant_categories": [
+            "Food"
+        ]
     },
     {
         "recipeID": 7,
@@ -124,7 +139,9 @@
             "Once cooked, mix in olive oil, lime juice, and fresh cilantro.",
             "Season with salt and serve."
         ],
-        "plant_categories": ["Herbal"]
+        "plant_categories": [
+            "Herbal"
+        ]
     },
     {
         "recipeID": 8,
@@ -143,7 +160,9 @@
             "Heat oil in a pan and fry spoonfuls of the mixture until golden brown.",
             "Serve with a dipping sauce."
         ],
-        "plant_categories": ["Food"]
+        "plant_categories": [
+            "Food"
+        ]
     },
     {
         "recipeID": 9,
@@ -160,7 +179,9 @@
             "Marinate chicken in the mixture for at least 30 minutes.",
             "Grill or cook the chicken as desired."
         ],
-        "plant_categories": ["Herbal"]
+        "plant_categories": [
+            "Herbal"
+        ]
     },
     {
         "recipeID": 10,
@@ -173,11 +194,13 @@
             "Salt and pepper to taste"
         ],
         "instructions": [
-            "Sauté onion in olive oil until softened.",
+            "Saute onion in olive oil until softened.",
             "Add pumpkin cubes and vegetable broth. Bring to a boil.",
             "Simmer for 15 minutes, then blend until smooth.",
             "Season with salt and pepper, and serve hot."
         ],
-        "plant_categories": ["Food"]
+        "plant_categories": [
+            "Food"
+        ]
     }
 ]
