@@ -5,6 +5,7 @@ import msvcrt  # For password masking (Windows only)
 # File paths for each database
 USER_DB = "users.json"
 PLANT_DB = "plantList.json"
+MAINTENANCE_DB = "maintenance.json"
 
 # Load data from a specific database file
 def load_data(db_file):
@@ -91,6 +92,59 @@ def reassign_plant_ids(plants):
         plant["plantID"] = index + 1  # ✅ Fix key from "plant_id" to "plantID"
     return plants
 
+def log_maintenance():
+    plants = load_data(PLANT_DB)
+    if not plants:
+        print("⚠️ No plants available for maintenance!")
+        return
+
+    print("\n🌱 Select a plant for maintenance:")
+    for plant in plants:
+        print(f"{plant['plantID']}. {plant['plant_name']}")
+
+    try:
+        plant_id = int(input("Enter plant ID: "))
+        selected_plant = next((plant for plant in plants if plant["plantID"] == plant_id), None)
+
+        if not selected_plant:
+            print("⚠️ Invalid plant ID!")
+            return
+
+        maintenance_type = input("Enter maintenance type (Watering/Fertilizing): ").strip().capitalize()
+        if maintenance_type not in ["Watering", "Fertilizing"]:
+            print("⚠️ Invalid maintenance type! Use 'Watering' or 'Fertilizing'.")
+            return
+
+        date = input("Enter date (YYYY-MM-DD): ").strip()
+        notes = input("Add any notes (optional): ").strip()
+
+        maintenance_logs = load_data(MAINTENANCE_DB)
+
+        maintenance_logs.append({
+            "plantID": plant_id,
+            "plant_name": selected_plant["plant_name"],
+            "maintenance_type": maintenance_type,
+            "date": date,
+            "notes": notes
+        })
+
+        save_data(MAINTENANCE_DB, maintenance_logs)
+        print("✅ Maintenance record added successfully!")
+
+    except ValueError:
+        print("⚠️ Invalid input! Please enter a valid plant ID.")
+
+# Show maintenance log
+def show_maintenance_log():
+    logs = load_data(MAINTENANCE_DB)
+    print("\n📋 Plant Maintenance Logs:")
+
+    if not logs:
+        print("⚠️ No maintenance records found.")
+        return
+
+    for log in logs:
+        print(f"🌿 {log['plant_name']} | {log['maintenance_type']} | Date: {log['date']} | Notes: {log['notes']}")
 # Generate unique plant ID
 def generate_plant_id():
     plants = load_data(PLANT_DB)
@@ -181,7 +235,9 @@ def menu():
         print("2. Remove Plant")
         print("3. View Users")
         print("4. View Plants")
-        print("5. Logout")
+        print("5. Log Plant Maintenance")
+        print("6. View Maintenance Log")
+        print("7. Logout")
 
         choice = input("Enter your choice: ").strip()
 
@@ -194,6 +250,10 @@ def menu():
         elif choice == "4":
             show_plants()
         elif choice == "5":
+            log_maintenance()
+        elif choice == "6":
+            show_maintenance_log()
+        elif choice == "7":
             print("Logging out... 👋")
             return
         else:
