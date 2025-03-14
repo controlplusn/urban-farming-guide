@@ -1,0 +1,223 @@
+{
+    "Basil": {
+      "best_growing_setup": {
+        "container_type": "6-8 inch deep pot, hydroponic system possible",
+        "ideal_size": "Minimum 8 inches wide for multiple plants",
+        "indoor_vs_outdoor_suitability": "Grows well indoors with adequate light"
+      },
+      "light_requirements": {
+        "sunlight_hours": "6-8 hours",
+        "artificial_light": "LED grow lights (14-16 hours)"
+      },
+      "watering_strategy": {
+        "frequency": "Water every 2-3 days",
+        "precaution": "Avoid overwatering; use a well-draining pot to prevent root rot"
+      },
+      "soil_and_fertilizer_needs": {
+        "soil_type": "Well-draining, nutrient-rich soil",
+        "fertilizer": "Feed with organic compost or liquid fertilizer every 2 weeks"
+      },
+      "space_saving_tips": {
+        "vertical_growing": "Can be grown in vertical gardens or hydroponic systems",
+        "companion_planting": "Grows well with tomatoes"
+      },
+      "pest_and_disease_prevention": {
+        "common_pests": ["Aphids", "Whiteflies"],
+        "prevention_methods": ["Use neem oil", "Garlic spray"]
+      },
+      "urban_farming_challenges_and_solutions": {
+        "limited_sunlight": "Use LED grow lights",
+        "small_space": "Use stackable planters",
+        "dry_air": "Mist leaves lightly to maintain humidity"
+      }
+    },
+    "Tomato": {
+      "best_growing_setup": {
+        "container_type": "5-gallon pot or grow bag",
+        "ideal_size": "Minimum 12 inches deep",
+        "indoor_vs_outdoor_suitability": "Prefers outdoor balcony or rooftop, but can be grown indoors with strong grow lights"
+      },
+      "light_requirements": {
+        "sunlight_hours": "8+ hours",
+        "artificial_light": "High-intensity LED grow lights (16 hours)"
+      },
+      "watering_strategy": {
+        "frequency": "Water deeply every 2-3 days",
+        "precaution": "Ensure well-draining soil to avoid root rot"
+      },
+      "soil_and_fertilizer_needs": {
+        "soil_type": "Loamy, well-draining soil",
+        "fertilizer": "Feed with balanced fertilizer every 10-14 days"
+      },
+      "space_saving_tips": {
+        "vertical_growing": "Use stakes, cages, or trellises",
+        "companion_planting": "Grows well with basil and marigolds"
+      },
+      "pest_and_disease_prevention": {
+        "common_pests": ["Aphids", "Spider mites"],
+        "prevention_methods": ["Spray with neem oil", "Rotate crops annually"]
+      },
+      "urban_farming_challenges_and_solutions": {
+        "limited_sunlight": "Use full-spectrum LED lights",
+        "small_space": "Choose dwarf or cherry tomato varieties",
+        "pollination": "Hand-pollinate using a small brush"
+      }
+    },
+    "Mint": {
+      "best_growing_setup": {
+        "container_type": "Shallow but wide container",
+        "ideal_size": "8-10 inches deep",
+        "indoor_vs_outdoor_suitability": "Can grow well indoors or outdoors"
+      },
+      "light_requirements": {
+        "sunlight_hours": "4-6 hours",
+        "artificial_light": "Fluorescent or LED grow lights (12 hours)"
+      },
+      "watering_strategy": {
+        "frequency": "Keep soil consistently moist but not soggy",
+        "precaution": "Avoid waterlogging; ensure proper drainage"
+      },
+      "soil_and_fertilizer_needs": {
+        "soil_type": "Moist, well-draining soil",
+        "fertilizer": "Use organic compost or liquid fertilizer monthly"
+      },
+      "space_saving_tips": {
+        "vertical_growing": "Can be hung in small pots or wall planters",
+        "companion_planting": "Repels pests, good near vegetables"
+      },
+      "pest_and_disease_prevention": {
+        "common_pests": ["Spider mites", "Whiteflies"],
+        "prevention_methods": ["Mist leaves regularly", "Use neem oil"]
+      },
+      "urban_farming_challenges_and_solutions": {
+        "limited_sunlight": "Use artificial grow lights",
+        "overgrowth": "Trim regularly to prevent spreading",
+        "dry_air": "Mist leaves to maintain humidity"
+      }
+    },
+    "Carrot": {
+        "best_growing_setup": {
+            "container_type": "Deep container (12+ inches)",
+            "ideal_size": "At least 12 inches wide for multiple plants",
+            "indoor_vs_outdoor_suitability": "Better outdoors but can be grown indoors with deep pots"
+        },
+        "light_requirements": {
+            "sunlight_hours": "6-8 hours",
+            "artificial_light": "LED grow lights (12-14 hours)"
+        },
+        "watering_strategy": {
+            "frequency": "Water 1-2 times per week",
+            "precaution": "Avoid overwatering to prevent root splitting"
+        },
+        "soil_and_fertilizer_needs": {
+            "soil_type": "Loose, sandy, well-draining soil",
+            "fertilizer": "Use low-nitrogen fertilizer every 3-4 weeks"
+        },
+        "space_saving_tips": {
+            "vertical_growing": "Not suitable for vertical gardens",
+            "companion_planting": "Grows well with onions and lettuce"
+        },
+        "pest_and_disease_prevention": {
+            "common_pests": ["Carrot fly", "Aphids"],
+            "prevention_methods": ["Use floating row covers", "Interplant with strong-scented herbs"]
+        },
+        "urban_farming_challenges_and_solutions": {
+            "limited_space": "Use deep containers",
+            "uneven growth": "Loosen soil and remove rocks before planting"
+        }
+    },
+    "Lavender": {
+        "best_growing_setup": {
+            "container_type": "Clay pot with drainage holes",
+            "ideal_size": "12 inches deep",
+            "indoor_vs_outdoor_suitability": "Prefers outdoor balconies, but can be grown indoors with full sun"
+        },
+        "light_requirements": {
+            "sunlight_hours": "6-8 hours",
+            "artificial_light": "Full-spectrum LED lights if indoors"
+        },
+        "watering_strategy": {
+            "frequency": "Water once a week",
+            "precaution": "Avoid overwatering; prefers dry conditions"
+        },
+        "soil_and_fertilizer_needs": {
+            "soil_type": "Well-draining, sandy soil",
+            "fertilizer": "Minimal fertilization needed; compost once per season"
+        },
+        "space_saving_tips": {
+            "vertical_growing": "Not suitable",
+            "companion_planting": "Pairs well with rosemary and sage"
+        },
+        "pest_and_disease_prevention": {
+            "common_pests": ["Aphids", "Spider mites"],
+            "prevention_methods": ["Use neem oil", "Ensure good air circulation"]
+        },
+        "urban_farming_challenges_and_solutions": {
+          "limited_sunlight": "Place near a south-facing window",
+          "small space": "Use compact lavender varieties like 'Munstead'"
+        }
+    },
+    "Lettuce": {
+        "best_growing_setup": {
+            "container_type": "Shallow tray or hydroponic system",
+            "ideal_size": "6 inches deep",
+            "indoor_vs_outdoor_suitability": "Excellent for indoor hydroponics or small balconies"
+        },
+        "light_requirements": {
+            "sunlight_hours": "4-6 hours",
+            "artificial_light": "Fluorescent or LED grow lights (12 hours)"
+        },
+        "watering_strategy": {
+            "frequency": "Water daily in hot climates",
+            "precaution": "Keep soil moist but not soggy"
+        },
+        "soil_and_fertilizer_needs": {
+            "soil_type": "Moist, well-draining soil",
+            "fertilizer": "Liquid fertilizer every 2 weeks"
+        },
+        "space_saving_tips": {
+            "vertical_growing": "Ideal for hydroponic or vertical setups",
+            "companion_planting": "Pairs well with carrots and radishes"
+        },
+        "pest_and_disease_prevention": {
+            "common_pests": ["Slugs", "Aphids"],
+            "prevention_methods": ["Use diatomaceous earth", "Handpick slugs"]
+        },
+        "urban_farming_challenges_and_solutions": {
+            "limited space": "Grow in vertical hydroponic setups",
+            "heat sensitivity": "Provide partial shade in summer"
+        }
+    },
+    "Rosemary": {
+        "best_growing_setup": {
+            "container_type": "Clay pot with drainage",
+            "ideal_size": "6-8 inches deep",
+            "indoor_vs_outdoor_suitability": "Grows well indoors with direct sunlight"
+        },
+        "light_requirements": {
+            "sunlight_hours": "6+ hours",
+            "artificial_light": "Full-spectrum grow light if indoors"
+        },
+        "watering_strategy": {
+            "frequency": "Water once a week",
+            "precaution": "Avoid overwatering; prefers dry conditions"
+        },
+        "soil_and_fertilizer_needs": {
+            "soil_type": "Well-draining, sandy soil",
+            "fertilizer": "Minimal fertilization needed"
+        },
+        "space_saving_tips": {
+            "vertical_growing": "Not ideal",
+            "companion_planting": "Grows well with lavender and thyme"
+        },
+        "pest_and_disease_prevention": {
+            "common_pests": ["Spider mites", "Powdery mildew"],
+            "prevention_methods": ["Ensure good air circulation", "Use neem oil"]
+        },
+        "urban_farming_challenges_and_solutions": {
+            "low humidity": "Mist leaves occasionally",
+            "limited space": "Use small bush varieties"
+        }
+    }
+}
+  

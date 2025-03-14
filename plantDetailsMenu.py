@@ -1,5 +1,6 @@
 import os
 from plant_general_info import PlantGeneralInfo
+from urban_farming import UrbanFarmingTechniques
 
 class PlantDetails:
     def __init__(self, plant):
@@ -25,7 +26,8 @@ class PlantDetails:
                 input("\nPress Enter to return to the menu...") 
             elif choice == "2":
                 os.system('cls')
-                print(f"\n🌿 Herbal Uses: {self.plant.herbal_uses}\n")
+                urban_farming_techniques = UrbanFarmingTechniques(self.plant)
+                urban_farming_techniques.display_urban_farming_tips()
             elif choice == "3":
                 os.system('cls')
                 print(f"\n🌱 Growth Requirements:")
