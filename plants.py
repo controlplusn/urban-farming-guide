@@ -8,8 +8,10 @@ class Plant:
         self.growth_time = plant_data["growth_time"]
         self.water_requirement = plant_data["water_requirement"]
         self.soil_type = plant_data["soil_type"]
+        self.sunlight = plant_data["sunlight"]
         self.herbal_uses = plant_data["herbal_uses"]
         self.plant_category = plant_data["plant_category"]
+        self.fun_fact = plant_data["fun_fact"]
 
 class PlantsDashboard:
     def __init__(self, json_file):
