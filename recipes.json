@@ -1,0 +1,183 @@
+[
+    {
+        "recipeID": 1,
+        "recipe_name": "Tomato Basil Pasta",
+        "ingredients": [
+            "1 cup Basil",
+            "2 cups Tomato",
+            "1 tbsp Olive oil",
+            "2 cloves Garlic",
+            "1 tsp Oregano",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Cook pasta according to package directions.",
+            "In a separate pan, heat olive oil and sauté garlic.",
+            "Add chopped tomatoes, basil, oregano, salt, and pepper. Simmer for 5 minutes.",
+            "Toss the cooked pasta in the sauce and serve."
+        ],
+        "plant_categories": ["Food", "Herbal"]
+    },
+    {
+        "recipeID": 2,
+        "recipe_name": "Mint Lemonade",
+        "ingredients": [
+            "1 cup Fresh Mint",
+            "2 cups Water",
+            "1/2 cup Lemon juice",
+            "1 tbsp Honey",
+            "Ice cubes"
+        ],
+        "instructions": [
+            "Boil water and steep fresh mint for 5 minutes.",
+            "Strain the mint and let the water cool.",
+            "Mix the mint water with lemon juice, honey, and ice cubes.",
+            "Serve chilled."
+        ],
+        "plant_categories": ["Herbal"]
+    },
+    {
+        "recipeID": 3,
+        "recipe_name": "Carrot Ginger Soup",
+        "ingredients": [
+            "2 cups Carrot",
+            "1 tbsp Fresh Ginger",
+            "1 Onion, chopped",
+            "2 cups Vegetable broth",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Sauté onions and ginger in a pot until softened.",
+            "Add carrots and vegetable broth. Bring to a boil.",
+            "Simmer for 20 minutes, then blend until smooth.",
+            "Season with salt and pepper and serve."
+        ],
+        "plant_categories": ["Food", "Herbal"]
+    },
+    {
+        "recipeID": 4,
+        "recipe_name": "Lavender Lemon Cake",
+        "ingredients": [
+            "1 tbsp Dried Lavender",
+            "2 cups Flour",
+            "1/2 cup Sugar",
+            "1/2 cup Butter",
+            "2 Eggs",
+            "1/2 cup Lemon juice",
+            "1 tsp Baking powder"
+        ],
+        "instructions": [
+            "Preheat oven to 350°F (175°C). Grease a cake pan.",
+            "Mix flour, sugar, baking powder, and lavender.",
+            "Add eggs, butter, and lemon juice. Mix until smooth.",
+            "Pour batter into pan and bake for 25-30 minutes."
+        ],
+        "plant_categories": ["Herbal"]
+    },
+    {
+        "recipeID": 5,
+        "recipe_name": "Cabbage Stir Fry",
+        "ingredients": [
+            "1 head Cabbage, chopped",
+            "2 tbsp Soy sauce",
+            "1 tsp Ginger",
+            "1 tbsp Sesame oil",
+            "1 clove Garlic, minced",
+            "1 tsp Oregano"
+        ],
+        "instructions": [
+            "Heat sesame oil in a pan and sauté garlic and ginger.",
+            "Add chopped cabbage and stir-fry for 5-7 minutes.",
+            "Add soy sauce and oregano. Stir and cook for an additional 2 minutes.",
+            "Serve hot."
+        ],
+        "plant_categories": ["Food", "Herbal"]
+    },
+    {
+        "recipeID": 6,
+        "recipe_name": "Spinach and Garlic Sauté",
+        "ingredients": [
+            "2 cups Spinach",
+            "2 cloves Garlic, minced",
+            "1 tbsp Olive oil",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Heat olive oil in a pan and sauté garlic until fragrant.",
+            "Add spinach and cook until wilted.",
+            "Season with salt and pepper and serve."
+        ],
+        "plant_categories": ["Food"]
+    },
+    {
+        "recipeID": 7,
+        "recipe_name": "Cilantro Lime Rice",
+        "ingredients": [
+            "1 cup Rice",
+            "1/2 cup Fresh Cilantro, chopped",
+            "1 tbsp Lime juice",
+            "1 tbsp Olive oil",
+            "Salt to taste"
+        ],
+        "instructions": [
+            "Cook rice according to package directions.",
+            "Once cooked, mix in olive oil, lime juice, and fresh cilantro.",
+            "Season with salt and serve."
+        ],
+        "plant_categories": ["Herbal"]
+    },
+    {
+        "recipeID": 8,
+        "recipe_name": "Zucchini Fritters",
+        "ingredients": [
+            "2 cups Zucchini, grated",
+            "1 Egg",
+            "1/4 cup Flour",
+            "1/4 cup Parmesan cheese",
+            "1 tsp Oregano",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Grate zucchini and squeeze out excess water.",
+            "Mix zucchini with egg, flour, Parmesan, oregano, salt, and pepper.",
+            "Heat oil in a pan and fry spoonfuls of the mixture until golden brown.",
+            "Serve with a dipping sauce."
+        ],
+        "plant_categories": ["Food"]
+    },
+    {
+        "recipeID": 9,
+        "recipe_name": "Oregano Chicken Marinade",
+        "ingredients": [
+            "2 tbsp Oregano",
+            "1/4 cup Olive oil",
+            "1 tbsp Lemon juice",
+            "1 tsp Garlic powder",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Mix oregano, olive oil, lemon juice, garlic powder, salt, and pepper.",
+            "Marinate chicken in the mixture for at least 30 minutes.",
+            "Grill or cook the chicken as desired."
+        ],
+        "plant_categories": ["Herbal"]
+    },
+    {
+        "recipeID": 10,
+        "recipe_name": "Pumpkin Soup",
+        "ingredients": [
+            "2 cups Pumpkin, cubed",
+            "1 Onion, chopped",
+            "2 cups Vegetable broth",
+            "1 tbsp Olive oil",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Sauté onion in olive oil until softened.",
+            "Add pumpkin cubes and vegetable broth. Bring to a boil.",
+            "Simmer for 15 minutes, then blend until smooth.",
+            "Season with salt and pepper, and serve hot."
+        ],
+        "plant_categories": ["Food"]
+    }
+]
