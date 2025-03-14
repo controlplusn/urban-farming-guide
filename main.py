@@ -227,6 +227,60 @@ def show_plants():
     for plant in plants:
         print(f"ID: {plant.get('plantID', 'Unknown ID')} | Name: {plant.get('plant_name', 'Unknown')} | Water Requirement: {plant.get('water_requirement', 'Unknown')}")
 
+
+def view_plant_details():
+    plants = load_data(PLANT_DB)
+    if not plants:
+        print("⚠️ No plants available!")
+        return
+
+    print("\n🌱 Available Plants:")
+    for plant in plants:
+        print(f"{plant['plantID']}. {plant['plant_name']}")
+
+    try:
+        plant_id = int(input("Enter plant ID to view details: "))
+        selected_plant = next((plant for plant in plants if plant["plantID"] == plant_id), None)
+
+        if not selected_plant:
+            print("⚠️ Invalid plant ID!")
+            return
+
+        while True:
+            print(f"\n🌿 {selected_plant['plant_name']} Details:")
+            print("1. Overview")
+            print("2. Urban Farming Techniques")
+            print("3. Plant Care")
+            print("4. Best Practices")
+            print("5. Herbal & Medicinal Uses")
+            print("6. Add to Personal Farm")
+            print("7. Back")
+
+            choice = input("Choose an option: ").strip()
+
+            if choice == "1":
+                print(f"🌱 Overview: {selected_plant.get('growth_time', 'No data')}")
+            elif choice == "2":
+                print(f"🏡 Urban Farming Techniques: {selected_plant.get('urban_farming', 'No data')}")
+            elif choice == "3":
+                print(f"🪴 Plant Care: {selected_plant.get('water_requirement', 'No data')}")
+            elif choice == "4":
+                print(f"✅ Best Practices: {selected_plant.get('best_practices', 'No data')}")
+            elif choice == "5":
+                print(f"💊 Herbal & Medicinal Uses: {selected_plant.get('herbal_uses', 'No data')}")
+            elif choice == "6":
+                add_to_personal_farm(selected_plant)
+            elif choice == "7":
+                break
+            else:
+                print("⚠️ Invalid choice! Please try again.")
+
+    except ValueError:
+        print("⚠️ Invalid input! Please enter a valid plant ID.")
+
+# Function to add a plant to a personal farm (could be expanded)
+def add_to_personal_farm(plant):
+    print(f"✅ {plant['plant_name']} has been added to your personal farm!")
 # Menu function
 def menu():
     while True:
@@ -235,9 +289,10 @@ def menu():
         print("2. Remove Plant")
         print("3. View Users")
         print("4. View Plants")
-        print("5. Log Plant Maintenance")
-        print("6. View Maintenance Log")
-        print("7. Logout")
+        print("5. View Plant Details")
+        print("6. Log Plant Maintenance")
+        print("7. View Maintenance Log")
+        print("8. Logout")
 
         choice = input("Enter your choice: ").strip()
 
@@ -250,10 +305,12 @@ def menu():
         elif choice == "4":
             show_plants()
         elif choice == "5":
-            log_maintenance()
+            view_plant_details()
         elif choice == "6":
-            show_maintenance_log()
+            log_maintenance()
         elif choice == "7":
+            show_maintenance_log()
+        elif choice == "8":
             print("Logging out... 👋")
             return
         else:
