@@ -1,0 +1,323 @@
+[
+    {
+      "plant_name": "Basil",
+      "light_requirement": "Full sun (6+ hours daily)",
+      "watering": "Moderate; water every 2-3 days",
+      "soil_type": "Well-draining, rich soil",
+      "fertilizer": "Organic compost every 2 weeks",
+      "container_suitability": "Ideal for pots and small spaces",
+      "common_pests": "Aphids, whiteflies (Use neem oil)",
+      "extra_care": "Regular pruning encourages growth"
+    },
+    {
+      "plant_name": "Tomato",
+      "light_requirement": "Full sun (6-8 hours daily)",
+      "watering": "High; water deeply every 2-3 days",
+      "soil_type": "Loamy, well-draining",
+      "fertilizer": "Balanced fertilizer every 2 weeks",
+      "container_suitability": "Needs deep pots or raised beds",
+      "common_pests": "Hornworms, aphids (Use insecticidal soap)",
+      "extra_care": "Use stakes or cages for support"
+    },
+    {
+      "plant_name": "Mint",
+      "light_requirement": "Partial shade to full sun",
+      "watering": "Moderate; keep soil consistently moist",
+      "soil_type": "Moist, well-draining",
+      "fertilizer": "Compost every month",
+      "container_suitability": "Best grown in containers to prevent spreading",
+      "common_pests": "Spider mites, aphids (Spray with diluted soap water)",
+      "extra_care": "Prune regularly to prevent overgrowth"
+    },
+    {
+      "plant_name": "Carrot",
+      "light_requirement": "Full sun (at least 6 hours)",
+      "watering": "Moderate; keep soil slightly moist",
+      "soil_type": "Sandy, well-draining",
+      "fertilizer": "Low-nitrogen fertilizer every 3 weeks",
+      "container_suitability": "Needs deep containers (12 inches or more)",
+      "common_pests": "Carrot rust flies, aphids (Use row covers)",
+      "extra_care": "Thin seedlings to allow proper root growth"
+    },
+    {
+      "plant_name": "Lavender",
+      "light_requirement": "Full sun (6+ hours daily)",
+      "watering": "Low; water deeply but infrequently",
+      "soil_type": "Well-draining, sandy soil",
+      "fertilizer": "Minimal; compost in spring",
+      "container_suitability": "Grows well in pots with good drainage",
+      "common_pests": "Aphids, root rot (Avoid overwatering)",
+      "extra_care": "Prune after flowering to maintain shape"
+    },
+    {
+      "plant_name": "Lettuce",
+      "light_requirement": "Partial shade to full sun",
+      "watering": "High; keep soil consistently moist",
+      "soil_type": "Loose, well-draining soil",
+      "fertilizer": "Compost every 2 weeks",
+      "container_suitability": "Grows well in shallow containers",
+      "common_pests": "Slugs, aphids (Use diatomaceous earth)",
+      "extra_care": "Harvest outer leaves to encourage regrowth"
+    },
+    {
+      "plant_name": "Rosemary",
+      "light_requirement": "Full sun (6+ hours daily)",
+      "watering": "Low; water only when soil is dry",
+      "soil_type": "Sandy, well-draining soil",
+      "fertilizer": "Minimal; compost in spring",
+      "container_suitability": "Ideal for containers with drainage holes",
+      "common_pests": "Aphids, spider mites (Use neem oil)",
+      "extra_care": "Prune to maintain shape and promote growth"
+    },
+    {
+      "plant_name": "Cabbage",
+      "light_requirement": "Full sun (at least 6 hours)",
+      "watering": "Moderate; water deeply once a week",
+      "soil_type": "Rich, well-draining soil",
+      "fertilizer": "Nitrogen-rich fertilizer every 2 weeks",
+      "container_suitability": "Can be grown in large pots",
+      "common_pests": "Cabbage worms, aphids (Use row covers)",
+      "extra_care": "Mulch around plants to retain moisture"
+    },
+    {
+      "plant_name": "Thyme",
+      "light_requirement": "Full sun (6+ hours daily)",
+      "watering": "Low; water only when soil is dry",
+      "soil_type": "Sandy, well-draining soil",
+      "fertilizer": "Minimal; compost in spring",
+      "container_suitability": "Perfect for small containers",
+      "common_pests": "Aphids, spider mites (Use neem oil)",
+      "extra_care": "Trim regularly to encourage bushy growth"
+    },
+    {
+      "plant_name": "Spinach",
+      "light_requirement": "Partial shade to full sun",
+      "watering": "Moderate; keep soil evenly moist",
+      "soil_type": "Well-draining, rich soil",
+      "fertilizer": "Compost every 3 weeks",
+      "container_suitability": "Grows well in small pots or garden beds",
+      "common_pests": "Leaf miners, aphids (Use floating row covers)",
+      "extra_care": "Harvest young leaves for better taste"
+    },
+    {
+      "plant_name": "Ginger",
+      "light_requirement": "Partial shade to indirect light",
+      "watering": "Moderate; keep soil consistently moist",
+      "soil_type": "Rich, well-draining soil",
+      "fertilizer": "Compost or organic fertilizer monthly",
+      "container_suitability": "Needs wide, shallow pots",
+      "common_pests": "Root rot, nematodes (Avoid waterlogging)",
+      "extra_care": "Harvest after 8-10 months for mature rhizomes"
+    },
+    {
+      "plant_name": "Pepper",
+      "light_requirement": "Full sun (6+ hours daily)",
+      "watering": "Moderate; water deeply once a week",
+      "soil_type": "Loamy, well-draining soil",
+      "fertilizer": "Balanced fertilizer every 2 weeks",
+      "container_suitability": "Can be grown in medium-sized pots",
+      "common_pests": "Aphids, whiteflies (Use neem oil)",
+      "extra_care": "Use stakes for support in windy areas"
+    },
+    {
+      "plant_name": "Chamomile",
+      "light_requirement": "Full sun to partial shade",
+      "watering": "Low; water when soil feels dry",
+      "soil_type": "Well-draining, sandy soil",
+      "fertilizer": "Minimal; compost in spring",
+      "container_suitability": "Grows well in small pots",
+      "common_pests": "Aphids, mildew (Ensure good air circulation)",
+      "extra_care": "Harvest flowers for tea before they fully open"
+    },
+    {
+      "plant_name": "Onion",
+      "light_requirement": "Full sun (6+ hours daily)",
+      "watering": "Moderate; water deeply once a week",
+      "soil_type": "Loose, well-draining soil",
+      "fertilizer": "Nitrogen-rich fertilizer every 2 weeks",
+      "container_suitability": "Can be grown in wide, shallow containers",
+      "common_pests": "Onion maggots, thrips (Use crop rotation)",
+      "extra_care": "Harvest when tops start falling over"
+    },
+    {
+      "plant_name": "Garlic",
+      "light_requirement": "Full sun (6+ hours daily)",
+      "watering": "Low to moderate; avoid overwatering",
+      "soil_type": "Well-draining, loose soil",
+      "fertilizer": "Compost or organic fertilizer every month",
+      "container_suitability": "Can be grown in deep pots",
+      "common_pests": "Onion maggots, nematodes (Use row covers)",
+      "extra_care": "Harvest when leaves turn yellow and dry out"
+    },
+    {
+        "plant_name": "Oregano",
+        "light_requirement": "Full sun (6+ hours daily)",
+        "watering": "Low; allow soil to dry between waterings",
+        "soil_type": "Well-draining, sandy soil",
+        "fertilizer": "Minimal; compost in spring",
+        "container_suitability": "Grows well in small containers",
+        "common_pests": "Aphids, spider mites (Use neem oil)",
+        "extra_care": "Prune regularly to encourage new growth"
+      },
+      {
+        "plant_name": "Pumpkin",
+        "light_requirement": "Full sun (6+ hours daily)",
+        "watering": "High; water deeply 2-3 times per week",
+        "soil_type": "Rich, well-draining soil",
+        "fertilizer": "Balanced fertilizer every 2 weeks",
+        "container_suitability": "Requires large space or deep containers",
+        "common_pests": "Squash bugs, powdery mildew (Use mulch and proper spacing)",
+        "extra_care": "Provide support for vines if grown in small spaces"
+      },
+      {
+        "plant_name": "Aloe Vera",
+        "light_requirement": "Full sun to partial shade",
+        "watering": "Low; water once soil is completely dry",
+        "soil_type": "Sandy, well-draining soil",
+        "fertilizer": "Minimal; compost once per season",
+        "container_suitability": "Ideal for pots with drainage holes",
+        "common_pests": "Aphids, root rot (Avoid overwatering)",
+        "extra_care": "Cut outer leaves for use, leaving inner leaves to grow"
+      },
+      {
+        "plant_name": "Cilantro",
+        "light_requirement": "Partial shade to full sun",
+        "watering": "Moderate; water regularly to keep soil moist",
+        "soil_type": "Well-draining, rich soil",
+        "fertilizer": "Compost every 2 weeks",
+        "container_suitability": "Grows well in shallow pots",
+        "common_pests": "Aphids, mildew (Ensure good air circulation)",
+        "extra_care": "Harvest leaves regularly to prevent bolting"
+      },
+      {
+        "plant_name": "Strawberry",
+        "light_requirement": "Full sun (6+ hours daily)",
+        "watering": "Moderate; keep soil evenly moist",
+        "soil_type": "Rich, well-draining soil",
+        "fertilizer": "Balanced fertilizer every 3 weeks",
+        "container_suitability": "Perfect for hanging baskets or containers",
+        "common_pests": "Slugs, spider mites (Use straw mulch to protect fruit)",
+        "extra_care": "Remove runners to focus energy on fruit production"
+      },
+      {
+        "plant_name": "Echinacea",
+        "light_requirement": "Full sun (6+ hours daily)",
+        "watering": "Low; drought-tolerant once established",
+        "soil_type": "Well-draining, sandy or loamy soil",
+        "fertilizer": "Minimal; compost in early spring",
+        "container_suitability": "Needs deep pots for proper root growth",
+        "common_pests": "Aphids, Japanese beetles (Use companion planting for protection)",
+        "extra_care": "Deadhead spent flowers to encourage blooming"
+      },
+      {
+        "plant_name": "Beetroot",
+        "light_requirement": "Full sun to partial shade",
+        "watering": "Moderate; keep soil consistently moist",
+        "soil_type": "Loose, well-draining soil",
+        "fertilizer": "Compost every 2 weeks",
+        "container_suitability": "Grows well in deep containers",
+        "common_pests": "Leaf miners, aphids (Use floating row covers)",
+        "extra_care": "Thin seedlings for proper root development"
+      },
+      {
+        "plant_name": "Dandelion",
+        "light_requirement": "Full sun to partial shade",
+        "watering": "Low; drought-resistant once established",
+        "soil_type": "Well-draining, loose soil",
+        "fertilizer": "Minimal; compost in spring",
+        "container_suitability": "Grows well in pots or garden beds",
+        "common_pests": "None (Highly resilient plant)",
+        "extra_care": "Harvest leaves when young for best taste"
+      },
+      {
+        "plant_name": "Zucchini",
+        "light_requirement": "Full sun (6+ hours daily)",
+        "watering": "High; water deeply 2-3 times per week",
+        "soil_type": "Rich, well-draining soil",
+        "fertilizer": "Balanced fertilizer every 2 weeks",
+        "container_suitability": "Can grow in large pots with proper support",
+        "common_pests": "Squash bugs, powdery mildew (Use mulch and proper spacing)",
+        "extra_care": "Harvest young zucchini for best flavor"
+      },
+      {
+        "plant_name": "Turmeric",
+        "light_requirement": "Partial shade to indirect light",
+        "watering": "Moderate; keep soil consistently moist",
+        "soil_type": "Rich, well-draining soil",
+        "fertilizer": "Organic compost every month",
+        "container_suitability": "Best grown in wide, shallow pots",
+        "common_pests": "Root rot, nematodes (Avoid overwatering)",
+        "extra_care": "Harvest rhizomes after 8-10 months"
+      },
+      {
+        "plant_name": "Blueberry",
+        "light_requirement": "Full sun (6+ hours daily)",
+        "watering": "Moderate; keep soil consistently moist",
+        "soil_type": "Acidic, well-draining soil",
+        "fertilizer": "Acidic fertilizer every 3 weeks",
+        "container_suitability": "Grows well in large containers",
+        "common_pests": "Birds, aphids (Use netting for protection)",
+        "extra_care": "Prune old branches to encourage new growth"
+      },
+      {
+        "plant_name": "Parsley",
+        "light_requirement": "Partial shade to full sun",
+        "watering": "Moderate; water regularly to keep soil moist",
+        "soil_type": "Rich, well-draining soil",
+        "fertilizer": "Compost every 2 weeks",
+        "container_suitability": "Perfect for small containers or windowsills",
+        "common_pests": "Aphids, whiteflies (Use neem oil)",
+        "extra_care": "Harvest leaves regularly for continuous growth"
+      },
+      {
+        "plant_name": "Kale",
+        "light_requirement": "Full sun to partial shade",
+        "watering": "Moderate; keep soil evenly moist",
+        "soil_type": "Rich, well-draining soil",
+        "fertilizer": "Nitrogen-rich fertilizer every 2 weeks",
+        "container_suitability": "Grows well in deep containers",
+        "common_pests": "Cabbage worms, aphids (Use row covers)",
+        "extra_care": "Harvest outer leaves for continuous production"
+      },
+      {
+        "plant_name": "Pineapple",
+        "light_requirement": "Full sun (6+ hours daily)",
+        "watering": "Moderate; water deeply once a week",
+        "soil_type": "Sandy, well-draining soil",
+        "fertilizer": "Balanced fertilizer every 3 weeks",
+        "container_suitability": "Can be grown in large containers",
+        "common_pests": "Mealybugs, scale insects (Use insecticidal soap)",
+        "extra_care": "Takes 2-3 years to produce fruit"
+      },
+      {
+        "plant_name": "Eggplant",
+        "light_requirement": "Full sun (6+ hours daily)",
+        "watering": "Moderate; keep soil evenly moist",
+        "soil_type": "Rich, well-draining soil",
+        "fertilizer": "Balanced fertilizer every 2 weeks",
+        "container_suitability": "Grows well in medium-sized pots",
+        "common_pests": "Flea beetles, aphids (Use neem oil)",
+        "extra_care": "Use stakes for support in windy areas"
+    },
+    {
+        "plant_name": "Ampalaya",
+        "light_requirement": "Full sun (6+ hours daily)",
+        "watering": "Moderate; keep soil evenly moist",
+        "soil_type": "Well-draining, fertile soil",
+        "fertilizer": "Compost or organic fertilizer every 2 weeks",
+        "container_suitability": "Can be grown in deep containers with support",
+        "common_pests": "Aphids, fruit flies (Use neem oil and companion planting)",
+        "extra_care": "Provide a trellis for vines to climb"
+    },
+    {
+        "plant_name": "Lagundi",
+        "light_requirement": "Full sun to partial shade",
+        "watering": "Low to moderate; water when soil is dry",
+        "soil_type": "Well-draining, sandy or loamy soil",
+        "fertilizer": "Minimal; compost once every few months",
+        "container_suitability": "Can be grown in large pots",
+        "common_pests": "None (Highly resistant to pests)",
+        "extra_care": "Prune regularly to maintain bushy growth"
+    }
+]
+  
