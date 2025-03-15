@@ -88,11 +88,12 @@ class Maintenance:
         self.task_manager.mark_task_as_completed(plant_name, maintenance_type)
 
 if __name__ == "__main__":
-    weather_manager = WeatherManager(api_key="YOUR_API_KEY", location="YOUR_LOCATION")  # Set actual values
+    weather_manager = WeatherManager(latitude=13.7565, longitude=121.0583)
     reminder = Maintenance("maintenance.json")
 
     # Get weather notification
     weather_notification = weather_manager.get_weather_notification()
+    print(weather_notification)
     # Pass it to check_due_tasks()
     reminder.notification_manager.check_due_tasks()
 

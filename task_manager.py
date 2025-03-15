@@ -25,10 +25,29 @@ class TaskManager:
             print("✅ No upcoming tasks!")
             return
         
+    def filter_tasks_by_date_range(self, start_date, end_date):
+        try:
+            start = datetime.strptime(start_date, "%Y-%m-%d")
+            end = datetime.strptime(end_date, "%Y-%m-%d")
+        except ValueError:
+            print("⚠️ Invalid date format! Use YYYY-MM-DD.")
+            return
+
+        maintenance_log = self.load_data()
+        filtered_tasks = [
+            task for task in maintenance_log 
+            if start <= datetime.strptime(task['date'], "%Y-%m-%d") <= end
+        ]
+
+        print("\n📅 Filtered Plant Care Tasks 📅")
+        if not filtered_tasks:
+            print("✅ No tasks found in the selected date range!")
+            return
+
         print("+----------------+-------------------+------------+--------------------------------+-------------+")
         print("| Plant Name     | Maintenance Type  | Date       | Notes                          | Status      |")
         print("+----------------+-------------------+------------+--------------------------------+-------------+")
-        for task in upcoming_tasks:
+        for task in filtered_tasks:
             status = task.get('status', 'Pending')
             print(f"| {task['plant_name']:<14} | {task['maintenance_type']:<17} | {task['date']} | {task['notes']:<30} | {status:<11} |")
         print("+----------------+-------------------+------------+--------------------------------+-------------+")

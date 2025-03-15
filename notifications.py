@@ -13,9 +13,6 @@ class NotificationManager:
             return json.load(file)
 
     def check_due_tasks(self, weather_notification=None):
-        if weather_notification:
-            print(f"\n🌤️ Weather Notification: {weather_notification}")
-
         maintenance_log = self.load_data()
         today = datetime.now().strftime("%Y-%m-%d")
         overdue_tasks = []
@@ -26,7 +23,10 @@ class NotificationManager:
                 due_today_tasks.append(task)
             elif task['date'] < today and task.get('status', 'Pending') == 'Pending':
                 overdue_tasks.append(task)
-        
+
+        if weather_notification:
+            print(f"\n🌤️ Weather Notification: {weather_notification}")
+
         if due_today_tasks:
             print("\n⚠️ Tasks Due Today:")
             for task in due_today_tasks:
@@ -36,8 +36,6 @@ class NotificationManager:
             print("\n❌ Overdue Tasks:")
             for task in overdue_tasks:
                 print(f"- {task['plant_name']} ({task['maintenance_type']}) was due on {task['date']}")
-
-        print(f"\n🌤️ Weather Notification: {weather_notification}")
 
         if not due_today_tasks and not overdue_tasks:
             print("✅ No pending tasks due today or overdue!")

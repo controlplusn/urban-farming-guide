@@ -1,30 +1,30 @@
 import requests
 
 class WeatherManager:
-    def __init__(self, api_key, location):
-        self.api_key = api_key
-        self.location = location
+    def __init__(self, latitude, longitude):
+        self.latitude = latitude
+        self.longitude = longitude
 
     def get_weather_notification(self):
-        url = f"http://api.openweathermap.org/data/2.5/weather?q={self.location}&appid={self.api_key}&units=metric"
-        
+        url = f"https://api.open-meteo.com/v1/forecast?latitude={self.latitude}&longitude={self.longitude}&hourly=temperature_2m,precipitation&current_weather=true"
+
         try:
             response = requests.get(url)
             data = response.json()
 
-            if response.status_code == 200:
-                weather_condition = data['weather'][0]['main']
-                temperature = data['main']['temp']
-                
-                # Basic weather alerts
-                if weather_condition in ["Rain", "Thunderstorm"]:
-                    return f"🌧️ {weather_condition} expected. Consider delaying watering."
-                elif weather_condition == "Clear":
-                    return f"☀️ Clear skies. Ideal for plant care."
+            if 'current_weather' in data:
+                weather_condition = data['current_weather']['weathercode']
+                temperature = data['current_weather']['temperature']
+
+                # Basic weather alerts based on weather codes
+                if weather_condition in [61, 63, 65, 80, 81, 82]:  # Rain codes
+                    return f"\n🌧️ Rain expected. Consider delaying watering."
+                elif weather_condition in [0]:  # Clear sky code
+                    return f"\n☀️ Clear skies. Ideal for plant care."
                 elif temperature > 30:
-                    return f"🔥 High temperature ({temperature}°C). Water plants early!"
+                    return f"\n🔥 High temperature ({temperature}°C). Water plants early!"
                 else:
-                    return f"🌿 Weather: {weather_condition}, {temperature}°C."
+                    return f"\n🌿 Weather: Code {weather_condition}, {temperature}°C."
 
             return "⚠️ Unable to fetch weather data."
 
