@@ -1,9 +1,82 @@
 [
     {
-        "plantID": 32,
-        "plant_name": "Lagundi",
+        "plant_name": "Tomato",
         "maintenance_type": "Watering",
         "date": "2025-03-16",
-        "notes": "Urgent"
+        "notes": "Water deeply in the morning.",
+        "status": "Completed",
+        "weather_notification": "☀️ Clear skies. Ideal for plant care."
+    },
+    {
+        "plant_name": "Basil",
+        "maintenance_type": "Pruning",
+        "date": "2025-03-17",
+        "notes": "Trim leaves for better growth.",
+        "status": "Pending",
+        "weather_notification": "🌿 Weather: Cloudy, 20°C."
+    },
+    {
+        "plant_name": "Carrots",
+        "maintenance_type": "Fertilizing",
+        "date": "2025-03-19",
+        "notes": "Use organic compost.",
+        "status": "Pending",
+        "weather_notification": "☀️ Clear skies. Ideal for plant care."
+    },
+    {
+        "plant_name": "Strawberry",
+        "maintenance_type": "Pest Control",
+        "date": "2025-03-21",
+        "notes": "Check for aphids.",
+        "status": "Pending",
+        "weather_notification": "🌧️ Rain expected. Consider delaying watering."
+    },
+    {
+        "plant_name": "Lettuce",
+        "maintenance_type": "Watering",
+        "date": "2025-03-15",
+        "notes": "Keep soil moist.",
+        "status": "Pending",
+        "weather_notification": "☀️ Clear skies. Ideal for plant care."
+    },
+    {
+        "plant_name": "Pepper",
+        "maintenance_type": "Fertilizing",
+        "date": "2025-03-18",
+        "notes": "Apply balanced fertilizer.",
+        "status": "Pending",
+        "weather_notification": "🔥 High temperature (32°C). Water plants early!"
+    },
+    {
+        "plant_name": "Cucumber",
+        "maintenance_type": "Support Setup",
+        "date": "2025-03-20",
+        "notes": "Install trellis.",
+        "status": "Pending",
+        "weather_notification": "🌿 Weather: Cloudy, 22°C."
+    },
+    {
+        "plant_name": "Rosemary",
+        "maintenance_type": "Pruning",
+        "date": "2025-03-22",
+        "notes": "Trim woody stems.",
+        "status": "Pending",
+        "weather_notification": "☀️ Clear skies. Ideal for plant care."
+    },
+    {
+        "plant_name": "Corn",
+        "maintenance_type": "Pest Control",
+        "date": "2025-03-24",
+        "notes": "Inspect for worms.",
+        "status": "Pending",
+        "weather_notification": "🌧️ Rain expected. Consider delaying watering."
+    },
+    {
+        "plant_name": "Spinach",
+        "maintenance_type": "Watering",
+        "date": "2025-03-16",
+        "notes": "Ensure even moisture.",
+        "status": "Pending",
+        "weather_notification": "🌿 Weather: Cloudy, 18°C."
     }
 ]
