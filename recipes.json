@@ -1,7 +1,7 @@
 [
     {
-        "recipeID": 1,
-        "recipe_name": "Tomato Basil Pasta",
+        "recipe_id": 1,
+        "name": "Tomato Basil Pasta",
         "ingredients": [
             "1 cup Basil",
             "2 cups Tomato",
@@ -10,20 +10,15 @@
             "1 tsp Oregano",
             "Salt and pepper to taste"
         ],
-        "instructions": [
-            "Cook pasta according to package directions.",
-            "In a separate pan, heat olive oil and saute garlic.",
-            "Add chopped tomatoes, basil, oregano, salt, and pepper. Simmer for 5 minutes.",
-            "Toss the cooked pasta in the sauce and serve."
-        ],
-        "plant_categories": [
+        "categories": [
             "Food",
             "Herbal"
-        ]
+        ],
+        "instructions": "Cook pasta according to package directions.\nIn a separate pan, heat olive oil and saute garlic.\nAdd chopped tomatoes, basil, oregano, salt, and pepper. Simmer for 5 minutes.\nToss the cooked pasta in the sauce and serve."
     },
     {
-        "recipeID": 2,
-        "recipe_name": "Mint Lemonade",
+        "recipe_id": 2,
+        "name": "Mint Lemonade",
         "ingredients": [
             "1 cup Fresh Mint",
             "2 cups Water",
@@ -31,19 +26,14 @@
             "1 tbsp Honey",
             "Ice cubes"
         ],
-        "instructions": [
-            "Boil water and steep fresh mint for 5 minutes.",
-            "Strain the mint and let the water cool.",
-            "Mix the mint water with lemon juice, honey, and ice cubes.",
-            "Serve chilled."
-        ],
-        "plant_categories": [
+        "categories": [
             "Herbal"
-        ]
+        ],
+        "instructions": "Boil water and steep fresh mint for 5 minutes.\nStrain the mint and let the water cool.\nMix the mint water with lemon juice, honey, and ice cubes.\nServe chilled."
     },
     {
-        "recipeID": 3,
-        "recipe_name": "Carrot Ginger Soup",
+        "recipe_id": 3,
+        "name": "Carrot Ginger Soup",
         "ingredients": [
             "2 cups Carrot",
             "1 tbsp Fresh Ginger",
@@ -51,20 +41,15 @@
             "2 cups Vegetable broth",
             "Salt and pepper to taste"
         ],
-        "instructions": [
-            "Saute onions and ginger in a pot until softened.",
-            "Add carrots and vegetable broth. Bring to a boil.",
-            "Simmer for 20 minutes, then blend until smooth.",
-            "Season with salt and pepper and serve."
-        ],
-        "plant_categories": [
+        "categories": [
             "Food",
             "Herbal"
-        ]
+        ],
+        "instructions": "Saute onions and ginger in a pot until softened.\nAdd carrots and vegetable broth. Bring to a boil.\nSimmer for 20 minutes, then blend until smooth.\nSeason with salt and pepper and serve."
     },
     {
-        "recipeID": 4,
-        "recipe_name": "Lavender Lemon Cake",
+        "recipe_id": 4,
+        "name": "Lavender Lemon Cake",
         "ingredients": [
             "1 tbsp Dried Lavender",
             "2 cups Flour",
@@ -74,19 +59,14 @@
             "1/2 cup Lemon juice",
             "1 tsp Baking powder"
         ],
-        "instructions": [
-            "Preheat oven to 350\u00c2\u00b0F (175\u00c2\u00b0C). Grease a cake pan.",
-            "Mix flour, sugar, baking powder, and lavender.",
-            "Add eggs, butter, and lemon juice. Mix until smooth.",
-            "Pour batter into pan and bake for 25-30 minutes."
-        ],
-        "plant_categories": [
+        "categories": [
             "Herbal"
-        ]
+        ],
+        "instructions": "Preheat oven to 350\u00c2\u00b0F (175\u00c2\u00b0C). Grease a cake pan.\nMix flour, sugar, baking powder, and lavender.\nAdd eggs, butter, and lemon juice. Mix until smooth.\nPour batter into pan and bake for 25-30 minutes."
     },
     {
-        "recipeID": 5,
-        "recipe_name": "Cabbage Stir Fry",
+        "recipe_id": 5,
+        "name": "Cabbage Stir Fry",
         "ingredients": [
             "1 head Cabbage, chopped",
             "2 tbsp Soy sauce",
@@ -95,38 +75,29 @@
             "1 clove Garlic, minced",
             "1 tsp Oregano"
         ],
-        "instructions": [
-            "Heat sesame oil in a pan and saute garlic and ginger.",
-            "Add chopped cabbage and stir-fry for 5-7 minutes.",
-            "Add soy sauce and oregano. Stir and cook for an additional 2 minutes.",
-            "Serve hot."
-        ],
-        "plant_categories": [
+        "categories": [
             "Food",
             "Herbal"
-        ]
+        ],
+        "instructions": "Heat sesame oil in a pan and saute garlic and ginger.\nAdd chopped cabbage and stir-fry for 5-7 minutes.\nAdd soy sauce and oregano. Stir and cook for an additional 2 minutes.\nServe hot."
     },
     {
-        "recipeID": 6,
-        "recipe_name": "Spinach and Garlic Saute",
+        "recipe_id": 6,
+        "name": "Spinach and Garlic Saute",
         "ingredients": [
             "2 cups Spinach",
             "2 cloves Garlic, minced",
             "1 tbsp Olive oil",
             "Salt and pepper to taste"
         ],
-        "instructions": [
-            "Heat olive oil in a pan and saute garlic until fragrant.",
-            "Add spinach and cook until wilted.",
-            "Season with salt and pepper and serve."
-        ],
-        "plant_categories": [
+        "categories": [
             "Food"
-        ]
+        ],
+        "instructions": "Heat olive oil in a pan and saute garlic until fragrant.\nAdd spinach and cook until wilted.\nSeason with salt and pepper and serve."
     },
     {
-        "recipeID": 7,
-        "recipe_name": "Cilantro Lime Rice",
+        "recipe_id": 7,
+        "name": "Cilantro Lime Rice",
         "ingredients": [
             "1 cup Rice",
             "1/2 cup Fresh Cilantro, chopped",
@@ -134,18 +105,14 @@
             "1 tbsp Olive oil",
             "Salt to taste"
         ],
-        "instructions": [
-            "Cook rice according to package directions.",
-            "Once cooked, mix in olive oil, lime juice, and fresh cilantro.",
-            "Season with salt and serve."
-        ],
-        "plant_categories": [
+        "categories": [
             "Herbal"
-        ]
+        ],
+        "instructions": "Cook rice according to package directions.\nOnce cooked, mix in olive oil, lime juice, and fresh cilantro.\nSeason with salt and serve."
     },
     {
-        "recipeID": 8,
-        "recipe_name": "Zucchini Fritters",
+        "recipe_id": 8,
+        "name": "Zucchini Fritters",
         "ingredients": [
             "2 cups Zucchini, grated",
             "1 Egg",
@@ -154,19 +121,14 @@
             "1 tsp Oregano",
             "Salt and pepper to taste"
         ],
-        "instructions": [
-            "Grate zucchini and squeeze out excess water.",
-            "Mix zucchini with egg, flour, Parmesan, oregano, salt, and pepper.",
-            "Heat oil in a pan and fry spoonfuls of the mixture until golden brown.",
-            "Serve with a dipping sauce."
-        ],
-        "plant_categories": [
+        "categories": [
             "Food"
-        ]
+        ],
+        "instructions": "Grate zucchini and squeeze out excess water.\nMix zucchini with egg, flour, Parmesan, oregano, salt, and pepper.\nHeat oil in a pan and fry spoonfuls of the mixture until golden brown.\nServe with a dipping sauce."
     },
     {
-        "recipeID": 9,
-        "recipe_name": "Oregano Chicken Marinade",
+        "recipe_id": 9,
+        "name": "Oregano Chicken Marinade",
         "ingredients": [
             "2 tbsp Oregano",
             "1/4 cup Olive oil",
@@ -174,18 +136,14 @@
             "1 tsp Garlic powder",
             "Salt and pepper to taste"
         ],
-        "instructions": [
-            "Mix oregano, olive oil, lemon juice, garlic powder, salt, and pepper.",
-            "Marinate chicken in the mixture for at least 30 minutes.",
-            "Grill or cook the chicken as desired."
-        ],
-        "plant_categories": [
+        "categories": [
             "Herbal"
-        ]
+        ],
+        "instructions": "Mix oregano, olive oil, lemon juice, garlic powder, salt, and pepper.\nMarinate chicken in the mixture for at least 30 minutes.\nGrill or cook the chicken as desired."
     },
     {
-        "recipeID": 10,
-        "recipe_name": "Pumpkin Soup",
+        "recipe_id": 10,
+        "name": "Pumpkin Soup",
         "ingredients": [
             "2 cups Pumpkin, cubed",
             "1 Onion, chopped",
@@ -193,14 +151,24 @@
             "1 tbsp Olive oil",
             "Salt and pepper to taste"
         ],
-        "instructions": [
-            "Saute onion in olive oil until softened.",
-            "Add pumpkin cubes and vegetable broth. Bring to a boil.",
-            "Simmer for 15 minutes, then blend until smooth.",
-            "Season with salt and pepper, and serve hot."
-        ],
-        "plant_categories": [
+        "categories": [
             "Food"
-        ]
+        ],
+        "instructions": "Saute onion in olive oil until softened.\nAdd pumpkin cubes and vegetable broth. Bring to a boil.\nSimmer for 15 minutes, then blend until smooth.\nSeason with salt and pepper, and serve hot."
+    },
+    {
+        "recipe_id": 11,
+        "name": "Fresh Garden Salad",
+        "ingredients": [
+            "lettuce",
+            "tomato",
+            "cucumber",
+            "olive oil",
+            "lemon juice"
+        ],
+        "categories": [
+            "salad"
+        ],
+        "instructions": "Chop vegetables\n mix in a bowl\n drizzle olive oil and lemon juice\n toss well\n serve"
     }
 ]

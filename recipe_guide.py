@@ -44,7 +44,8 @@ class RecipeGuide:
         name = self.get_user_input("Enter recipe name: ")
         ingredients = self.get_user_input("List ingredients (comma-separated): ").split(',')
         categories = self.get_user_input("Enter categories (comma-separated): ").split(',')
-        instructions = self.get_user_input("Provide step-by-step instructions: ")
+        instructions = self.get_user_input("Provide step-by-step instructions (comma-separated): ").split(',')
+
 
         if not all([name, ingredients, categories, instructions]):
             print("⚠️ All fields are required! Try again.")
