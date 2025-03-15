@@ -1,6 +1,7 @@
 import os
 from plant_general_info import PlantGeneralInfo
 from urban_farming import UrbanFarmingTechniques
+from plantCare import PlantCare
 
 class PlantDetails:
     def __init__(self, plant):
@@ -30,10 +31,8 @@ class PlantDetails:
                 urban_farming_techniques.display_urban_farming_tips()
             elif choice == "3":
                 os.system('cls')
-                print(f"\n🌱 Growth Requirements:")
-                print(f"   - Growth Time: {self.plant.growth_time}")
-                print(f"   - Water Requirement: {self.plant.water_requirement}")
-                print(f"   - Soil Type: {self.plant.soil_type}\n")
+                plant_care = PlantCare(self.plant)
+                plant_care.display_plant_care()
             elif choice == "4":
                 print("\nReturning to dashboard...\n")
                 break
