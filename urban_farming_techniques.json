@@ -218,6 +218,192 @@
             "low humidity": "Mist leaves occasionally",
             "limited space": "Use small bush varieties"
         }
+    },
+    "Cabbage": {
+        "best_growing_setup": {
+          "container_type": "Large container (12-16 inches deep)",
+          "ideal_size": "At least 12 inches wide for proper spacing",
+          "indoor_vs_outdoor_suitability": "Best grown outdoors; can be indoors with ample light"
+        },
+        "light_requirements": {
+          "sunlight_hours": "6-8 hours",
+          "artificial_light": "Full-spectrum LED lights (12-14 hours)"
+        },
+        "watering_strategy": {
+          "frequency": "Water deeply 2-3 times per week",
+          "precaution": "Keep soil moist but not soggy to prevent root rot"
+        },
+        "soil_and_fertilizer_needs": {
+          "soil_type": "Well-draining, nutrient-rich loamy soil",
+          "fertilizer": "Balanced fertilizer every 2 weeks"
+        },
+        "space_saving_tips": {
+          "vertical_growing": "Not ideal for vertical growth",
+          "companion_planting": "Grows well with beans and onions"
+        },
+        "pest_and_disease_prevention": {
+          "common_pests": ["Cabbage worms", "Aphids"],
+          "prevention_methods": ["Use floating row covers", "Spray with neem oil"]
+        },
+        "urban_farming_challenges_and_solutions": {
+          "space constraints": "Choose dwarf cabbage varieties",
+          "pest control": "Companion plant with strong-smelling herbs like thyme"
+        }
+    },
+    "Thyme": {
+      "best_growing_setup": {
+        "container_type": "6-8 inch deep clay pot",
+        "ideal_size": "Small pot, as thyme prefers compact spaces",
+        "indoor_vs_outdoor_suitability": "Great for both indoor and outdoor growing"
+      },
+      "light_requirements": {
+        "sunlight_hours": "6+ hours",
+        "artificial_light": "LED grow lights (12-14 hours)"
+      },
+      "watering_strategy": {
+        "frequency": "Water once a week",
+        "precaution": "Avoid overwatering; let soil dry out between waterings"
+      },
+      "soil_and_fertilizer_needs": {
+        "soil_type": "Sandy, well-draining soil",
+        "fertilizer": "Minimal feeding needed; compost every few months"
+      },
+      "space_saving_tips": {
+        "vertical_growing": "Can be grown in hanging planters",
+        "companion_planting": "Pairs well with rosemary and cabbage"
+      },
+      "pest_and_disease_prevention": {
+        "common_pests": ["Spider mites", "Aphids"],
+        "prevention_methods": ["Keep good air circulation", "Use insecticidal soap"]
+      },
+      "urban_farming_challenges_and_solutions": {
+        "slow growth": "Harvest regularly to encourage new growth",
+        "small space": "Use vertical wall planters or stackable pots"
+      }
+    },
+    "Spinach": {
+      "best_growing_setup": {
+        "container_type": "Shallow container or hydroponic system",
+        "ideal_size": "At least 6 inches deep",
+        "indoor_vs_outdoor_suitability": "Excellent for indoor hydroponics or balcony gardens"
+      },
+      "light_requirements": {
+        "sunlight_hours": "4-6 hours",
+        "artificial_light": "Fluorescent or LED grow lights (12-14 hours)"
+      },
+      "watering_strategy": {
+        "frequency": "Water every 2 days",
+        "precaution": "Keep soil moist but not waterlogged"
+      },
+      "soil_and_fertilizer_needs": {
+        "soil_type": "Well-draining, nutrient-rich soil",
+        "fertilizer": "Liquid fertilizer every 2 weeks"
+      },
+      "space_saving_tips": {
+        "vertical_growing": "Great for hydroponic systems",
+        "companion_planting": "Grows well with carrots and radishes"
+      },
+      "pest_and_disease_prevention": {
+        "common_pests": ["Aphids", "Slugs"],
+        "prevention_methods": ["Use diatomaceous earth", "Spray with neem oil"]
+      },
+      "urban_farming_challenges_and_solutions": {
+        "limited space": "Grow in vertical hydroponic setups",
+        "heat sensitivity": "Provide shade in hot climates"
+      }
+    },
+    "Ginger": {
+      "best_growing_setup": {
+        "container_type": "Wide, shallow container (10-12 inches deep)",
+        "ideal_size": "At least 12 inches wide for rhizome expansion",
+        "indoor_vs_outdoor_suitability": "Grows well indoors in warm, humid conditions"
+      },
+      "light_requirements": {
+        "sunlight_hours": "4-6 hours",
+        "artificial_light": "Full-spectrum LED lights if indoors"
+      },
+      "watering_strategy": {
+        "frequency": "Water lightly every few days",
+        "precaution": "Keep soil slightly moist but never soggy"
+      },
+      "soil_and_fertilizer_needs": {
+        "soil_type": "Loose, well-draining soil rich in organic matter",
+        "fertilizer": "Compost or organic fertilizer every 3 weeks"
+      },
+      "space_saving_tips": {
+        "vertical_growing": "Not suitable for vertical setups",
+        "companion_planting": "Pairs well with turmeric and lemongrass"
+      },
+      "pest_and_disease_prevention": {
+        "common_pests": ["Root rot", "Aphids"],
+        "prevention_methods": ["Ensure proper drainage", "Use neem oil"]
+      },
+      "urban_farming_challenges_and_solutions": {
+        "slow growth": "Start with healthy rhizomes",
+        "limited space": "Use wide, shallow containers"
+      }
+    },
+    "Pepper": {
+      "best_growing_setup": {
+        "container_type": "5-gallon pot or grow bag",
+        "ideal_size": "Minimum 12 inches deep",
+        "indoor_vs_outdoor_suitability": "Best grown outdoors; can be grown indoors with strong grow lights"
+      },
+      "light_requirements": {
+        "sunlight_hours": "6-8 hours",
+        "artificial_light": "LED grow lights (14-16 hours)"
+      },
+      "watering_strategy": {
+        "frequency": "Water every 2-3 days",
+        "precaution": "Avoid waterlogging to prevent root rot"
+      },
+      "soil_and_fertilizer_needs": {
+        "soil_type": "Well-draining loamy soil",
+        "fertilizer": "Balanced fertilizer every 2 weeks"
+      },
+      "space_saving_tips": {
+        "vertical_growing": "Use small trellises for support",
+        "companion_planting": "Grows well with basil and tomatoes"
+      },
+      "pest_and_disease_prevention": {
+        "common_pests": ["Aphids", "Spider mites"],
+        "prevention_methods": ["Use neem oil", "Introduce beneficial insects like ladybugs"]
+      },
+      "urban_farming_challenges_and_solutions": {
+        "limited space": "Choose dwarf or chili pepper varieties",
+        "pollination": "Hand-pollinate if growing indoors"
+      }
+    },
+    "Chamomile": {
+      "best_growing_setup": {
+        "container_type": "Small pot (6 inches deep)",
+        "ideal_size": "Compact growing space",
+        "indoor_vs_outdoor_suitability": "Excellent for indoor herb gardens"
+      },
+      "light_requirements": {
+        "sunlight_hours": "4-6 hours",
+        "artificial_light": "LED grow lights (12-14 hours)"
+      },
+      "watering_strategy": {
+        "frequency": "Water every 3-4 days",
+        "precaution": "Allow topsoil to dry between waterings"
+      },
+      "soil_and_fertilizer_needs": {
+        "soil_type": "Well-draining, sandy soil",
+        "fertilizer": "Minimal feeding needed"
+      },
+      "space_saving_tips": {
+        "vertical_growing": "Can be grown in hanging baskets",
+        "companion_planting": "Pairs well with basil and mint"
+      },
+      "pest_and_disease_prevention": {
+        "common_pests": ["Aphids", "Powdery mildew"],
+        "prevention_methods": ["Use neem oil", "Improve air circulation"]
+      },
+      "urban_farming_challenges_and_solutions": {
+        "slow growth": "Start from transplants for faster yield",
+        "limited space": "Use compact pots or window planters"
+      }
     }
 }
   
