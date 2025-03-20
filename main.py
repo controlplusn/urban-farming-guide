@@ -141,6 +141,15 @@ def show_plants():
     for plant in plants:
         print(f"ID: {plant['plant_id']} | Name: {plant['name']} | Water Schedule: {plant['water_schedule']}")
 
+# Check plant maintenance
+def check_plants():
+    plants = load_data(PLANT_DB)
+    print("\n🌱 Plants List:\n")
+    for plant in plants:
+        print(f"Name: {plant['name']}")
+        print(f"💧 Water Time: left | 🌱 Fertilizer Time: left | 🧺 Harvest Time: left")
+        print("\n")
+
 # Menu function
 def menu():
     while True:
@@ -149,7 +158,8 @@ def menu():
         print("2. Remove Plant")
         print("3. View Users")
         print("4. View Plants")
-        print("5. Logout")
+        print("5. Maintenance Reminder")
+        print("0. Logout")
 
         choice = input("Enter your choice: ")
 
@@ -162,6 +172,8 @@ def menu():
         elif choice == "4":
             show_plants()
         elif choice == "5":
+            check_plants()
+        elif choice == "0":
             print("Logging out... 👋")
             return
         else:
