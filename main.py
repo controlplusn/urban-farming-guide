@@ -185,7 +185,7 @@ def check_plants():
         next_fertilize = last_fertilized + timedelta(hours=care['fertilize_every_hours'])
         harvest_time = planted_on + timedelta(hours=care['harvest_after_hours'])
 
-        print(f"\nPlant: {plant_name}")
+        print(f"\nPlant: {plant_name}") # Will fix fetching data issues
         print(f"💧 Water in: {(next_water - now)}")
         print(f"🌱 Fertilize in: {(next_fertilize - now)}")
         print(f"🧺 Harvest in: {(harvest_time - now)}")
