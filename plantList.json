@@ -15,7 +15,12 @@
       "water_requirement": "High",
       "soil_type": "Loamy, well-draining",
       "herbal_uses": "Rich in antioxidants, supports heart health",
-      "plant_category": "Food"
+      "plant_category": "Food",
+      "care_schedule": {
+        "water_every_hours": 48,
+        "fertilize_every_hours": 168,
+        "harvest_after_hours": 1008
+      }
     },
     {
       "plantID": 3,
