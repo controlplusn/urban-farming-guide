@@ -3,6 +3,7 @@ from plant_general_info import PlantGeneralInfo
 from urban_farming import UrbanFarmingTechniques
 from plantCare import PlantCare
 from plantMedicineUse import PlantMedicineUse
+from add_plant_function import add_plant
 
 class PlantDetails:
     def __init__(self, plant):
@@ -39,8 +40,9 @@ class PlantDetails:
                 plant_medicine = PlantMedicineUse(self.plant)
                 plant_medicine.display_plant_medicinal_uses()
             elif choice == "5":
-                # Add a plant option
-                break
+                os.system('cls')
+                add_plant()
+                input("\nPress Enter to return to the menu...") 
             elif choice == "6":
                 confirm = input("\nAre you sure you want to return to the dashboard? (y/n): ")
                 if confirm.lower() == "y":

@@ -6,7 +6,17 @@
     },
     {
         "plant_id": 2,
-        "name": "Lagundi",
-        "water_schedule": "3pm-5pm"
+        "name": "Tawa-tawa",
+        "water_schedule": "6pm"
+    },
+    {
+        "plant_id": 3,
+        "name": "Oregano",
+        "water_schedule": "7am"
+    },
+    {
+        "plant_id": 4,
+        "name": "Rosemary",
+        "water_schedule": "2pm"
     }
 ]

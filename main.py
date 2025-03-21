@@ -3,6 +3,7 @@ import os
 import msvcrt  # For password masking (Windows only)
 from datetime import datetime, timedelta    # for time countdown
 from plants import PlantsDashboard
+from add_plant_function import add_plant
 
 # File paths for each database
 USER_DB = "users.json"
@@ -96,19 +97,19 @@ def generate_plant_id():
     return max((plant["plant_id"] for plant in plants), default=0) + 1
 
 # Add a plant
-def add_plant():
-    plants = load_data(PLANT_DB)
-    plant_id = generate_plant_id()
-    plant_name = input("Enter plant name: ").strip()
-    water_schedule = input("Enter watering schedule: ").strip()
+# def add_plant():
+#     plants = load_data(PLANT_DB)
+#     plant_id = generate_plant_id()
+#     plant_name = input("Enter plant name: ").strip()
+#     water_schedule = input("Enter watering schedule: ").strip()
 
-    if not plant_name or not water_schedule:
-        print("⚠️ Plant name and watering schedule cannot be empty!")
-        return
+#     if not plant_name or not water_schedule:  
+#         print("⚠️ Plant name and watering schedule cannot be empty!")
+#         return
 
-    plants.append({"plant_id": plant_id, "name": plant_name, "water_schedule": water_schedule})
-    save_data(PLANT_DB, plants)
-    print("✅ Plant added successfully!")
+#     plants.append({"plant_id": plant_id, "name": plant_name, "water_schedule": water_schedule})
+#     save_data(PLANT_DB, plants)
+#     print("✅ Plant added successfully!")
 
 # Remove a plant
 def remove_plant():
@@ -271,7 +272,6 @@ def first_panel():
         else:
             print("⚠️ Invalid choice! Please try again.")
 
-# Run the system
 if __name__ == "__main__":
     first_panel()
     
