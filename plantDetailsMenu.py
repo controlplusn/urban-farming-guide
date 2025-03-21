@@ -2,6 +2,7 @@ import os
 from plant_general_info import PlantGeneralInfo
 from urban_farming import UrbanFarmingTechniques
 from plantCare import PlantCare
+from plantMedicineUse import PlantMedicineUse
 
 class PlantDetails:
     def __init__(self, plant):
@@ -14,9 +15,9 @@ class PlantDetails:
             print("1. Plant General Info")
             print("2. Urban Farming Techniques")
             print("3. Plant Care")
-            print("4. Best Practices")
-            print("5. Herbal and Medicine Use")
-            print("6. Add a Plant") # Add plant function -> on main branch
+            print("4. Herbal and Medicine Use")
+            print("5. Add a Plant") # Add plant function -> on main branch
+            print("6. Return to Dashboard")
 
             choice = input("\nEnter your choice: ")
 
@@ -34,7 +35,17 @@ class PlantDetails:
                 plant_care = PlantCare(self.plant)
                 plant_care.display_plant_care()
             elif choice == "4":
-                print("\nReturning to dashboard...\n")
+                os.system("cls")
+                plant_medicine = PlantMedicineUse(self.plant)
+                plant_medicine.display_plant_medicinal_uses()
+            elif choice == "5":
+                # Add a plant option
                 break
+            elif choice == "6":
+                confirm = input("\nAre you sure you want to return to the dashboard? (y/n): ")
+                if confirm.lower() == "y":
+                    print("\nReturning to dashboard...\n")
+                    break
             else:
                 print("\n⚠ Invalid choice! Please enter a valid option.\n")
+        
