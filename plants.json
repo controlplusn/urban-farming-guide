@@ -1,47 +1,32 @@
 [
     {
         "plant_id": 1,
-        "name": "Tomato",
-        "water_schedule": "6"
+        "name": "Eggplant",
+        "water_schedule": 1,
+        "fertilize_schedule": 2,
+        "harvest_schedule": 3,
+        "last_watered": 1742575448,
+        "last_fertilized": 1742575448,
+        "last_harvested": 1742575448
     },
     {
         "plant_id": 2,
-        "name": "Tawa-tawa",
-        "water_schedule": "6pm"
+        "name": "Tomato",
+        "water_schedule": 1,
+        "fertilize_schedule": 1,
+        "harvest_schedule": 2,
+        "last_watered": 1742575448,
+        "last_fertilized": 1742575448,
+        "last_harvested": 1742575448
     },
     {
         "plant_id": 3,
-        "name": "Oregano",
-        "water_schedule": "7am"
-    },
-    {
-        "plant_id": 5,
-        "name": "Manggo",
-        "water_schedule": "8am"
-    },
-    {
-        "plant_id": 6,
-        "name": "Apple",
-        "water_schedule": "3pm"
-    },
-    {
-        "plant_id": 7,
-        "name": "basil",
-        "water_schedule": "6"
-    },
-    {
-        "plant_id": 8,
-        "name": "1",
-        "water_schedule": "1"
-    },
-    {
-        "plant_id": 9,
-        "name": "Lagundi",
-        "water_schedule": "5"
-    },
-    {
-        "plant_id": 10,
-        "name": "1",
-        "water_schedule": "1"
+        "name": "Cabbage",
+        "water_schedule": 4,
+        "fertilize_schedule": 5,
+        "harvest_schedule": 3,
+        "last_watered": 1742575326,
+        "last_fertilized": 1742575326,
+        "last_harvested": 1742575507
     }
 ]

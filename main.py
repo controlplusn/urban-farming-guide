@@ -4,6 +4,7 @@ import msvcrt
 from datetime import datetime, timedelta
 from plants import PlantsDashboard
 from add_plant_function import add_plant
+import time
 
 class PlantCareSystem:
     USER_DB = "users.json"
@@ -114,10 +115,65 @@ class PlantCareSystem:
 
         print("\n🌱 Added Plants List:\n")
         for plant in plants:
-            print(f"🌿 Name: {plant['name']} | Water Schedule: {plant['water_schedule']}")
+            print(f"🌿 Name: {plant['name']} | Water Schedule: {plant['water_schedule']} | Fertilize Schedule: {plant['fertilize_schedule']} | Harvest Schedule: {plant['harvest_schedule']}")
         input("\nPress enter to return to the dashboard...")
     
     def check_plant_care(self):
+        plants = self.load_data(self.PLANT_DB)
+        if not plants:
+            print("⚠️ No plants available!")
+            return
+
+        print("\n🌱 Check Plant Care Schedule:\n")
+        current_time = int(time.time())  # current timestamp in seconds
+
+        for plant in plants:
+            print(f"🌿 Name: {plant['name']}")
+            
+            # Calculate minutes left for each task
+            minutes_since_watered = (current_time - plant["last_watered"]) // 60
+            minutes_since_fertilized = (current_time - plant["last_fertilized"]) // 60
+            minutes_since_harvested = (current_time - plant["last_harvested"]) // 60
+
+            water_left = plant["water_schedule"] - minutes_since_watered
+            fertilize_left = plant["fertilize_schedule"] - minutes_since_fertilized
+            harvest_left = plant["harvest_schedule"] - minutes_since_harvested
+
+
+            print(f"💧 Water in: {max(water_left, 0)} minute(s)")
+            print(f"🌾 Fertilize in: {max(fertilize_left, 0)} minute(s)")
+            print(f"🧺 Harvest in: {max(harvest_left, 0)} minute(s)")
+
+            print("\n")
+
+            reminders = []
+            if water_left <= 0:
+                reminders.append("💧 Time to WATER this plant!")
+            if fertilize_left <= 0:
+                reminders.append("🌾 Time to FERTILIZE this plant!")
+            if harvest_left <= 0:
+                reminders.append("🧺 Time to HARVEST this plant!")
+            
+            print("\n")
+
+            for reminder in reminders:
+                print(f"🔔 {reminder}")
+
+            # Confirmation input
+            if reminders:
+                choice = input(f"✅ Have you completed the care for '{plant['name']}'? (y/n): ").strip().lower()
+                if choice == "y":
+                    # Reset times based on confirmation
+                    if water_left <= 0:
+                        plant["last_watered"] = current_time
+                    if fertilize_left <= 0:
+                        plant["last_fertilized"] = current_time
+                    if harvest_left <= 0:
+                        plant["last_harvested"] = current_time
+
+        # Save updated plant data with new timestamps
+        self.save_data(self.PLANT_DB, plants)
+        print("\n✅ All reminders handled and plant care logs updated!")
 
     def show_plants(self):
         dashboard = PlantsDashboard("plantList.json")
