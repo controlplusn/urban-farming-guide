@@ -15,8 +15,13 @@
         "water_schedule": "7am"
     },
     {
-        "plant_id": 4,
-        "name": "Rosemary",
-        "water_schedule": "2pm"
+        "plant_id": 5,
+        "name": "Manggo",
+        "water_schedule": "8am"
+    },
+    {
+        "plant_id": 6,
+        "name": "Apple",
+        "water_schedule": "3pm"
     }
 ]
