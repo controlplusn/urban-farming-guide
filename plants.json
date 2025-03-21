@@ -3,5 +3,10 @@
         "plant_id": 1,
         "name": "Tomato",
         "water_schedule": "6"
+    },
+    {
+        "plant_id": 2,
+        "name": "Lagundi",
+        "water_schedule": "3pm-5pm"
     }
 ]

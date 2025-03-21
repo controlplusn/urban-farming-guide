@@ -50,7 +50,7 @@ if __name__ == "__main__":
 
             if user_choice == 0:
                 print("\nExiting program...\n")
-                break  
+                break
             dashboard.get_plant_details(user_choice)
         except ValueError:
             print("\n⚠ Invalid input! Please enter a number.\n")

@@ -129,12 +129,20 @@ def remove_plant():
     except ValueError:
         print("⚠️ Invalid input! Please enter a valid plant ID.")
 
-# View users
-def show_users():
-    users = load_data(USER_DB)
-    print("\n👥 Registered Users:")
-    for user in users:
-        print(f"ID: {user['user_id']} | Name: {user['name']} | Email: {user['email']}")
+# View added plants
+def show_added_plants():
+    plants = load_data(PLANT_DB)
+
+    if not plants:
+        print("⚠️ No plants available!")
+        return
+
+    print("\n🌱 Added Plants List:\n")
+    for plant in plants:
+        print(f"🌿 Name: {plant['name']} | Water Schedule: {plant['water_schedule']}")
+
+    input("\nPress enter to return to the dashboard...")
+    print("\n")
 
 # View plants
 def show_plants():
@@ -206,18 +214,16 @@ def check_plants():
         print("\n")
 
 
-
-
 # Menu function
 def menu():
     while True:
         print("\n🌿 Plant Care Management System 🌿")
         print("1. Add Plant")
         print("2. Remove Plant")
-        print("3. View Users")
+        print("3. View Added Plants")
         print("4. View Plants")
         print("5. Maintenance Reminder")
-        print("0. Logout")
+        print("6. Logout")
 
         choice = input("Enter your choice: ")
 
@@ -229,15 +235,14 @@ def menu():
             remove_plant()
         elif choice == "3":
             os.system('cls')
-            show_users()
+            show_added_plants()
         elif choice == "4":
             os.system('cls')
             show_plants()
-            break
         elif choice == "5":
             os.system('cls')
             check_plants()
-        elif choice == "0":
+        elif choice == "6":
             print("Logging out... 👋")
             return
         else:
