@@ -23,5 +23,25 @@
         "plant_id": 6,
         "name": "Apple",
         "water_schedule": "3pm"
+    },
+    {
+        "plant_id": 7,
+        "name": "basil",
+        "water_schedule": "6"
+    },
+    {
+        "plant_id": 8,
+        "name": "1",
+        "water_schedule": "1"
+    },
+    {
+        "plant_id": 9,
+        "name": "Lagundi",
+        "water_schedule": "5"
+    },
+    {
+        "plant_id": 10,
+        "name": "1",
+        "water_schedule": "1"
     }
 ]

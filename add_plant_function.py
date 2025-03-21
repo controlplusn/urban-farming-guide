@@ -25,12 +25,14 @@ def add_plant():
     plants = load_data(PLANT_DB)
     plant_id = generate_plant_id()
     plant_name = input("Enter plant name: ").strip()
-    water_schedule = input("Enter watering schedule: ").strip()
+    water_schedule = int(input("Enter watering schedule (every __ minutes): "))
+    fertilizer_schedule = int(input("Enter fertilize schedule (every __ minutes): "))
+    harvest_schedule = int(input("Enter harvest schedule (every __ minutes): "))
 
-    if not plant_name or not water_schedule:
-        print("⚠️ Plant name and watering schedule cannot be empty!")
+    if not plant_name or not water_schedule or not fertilizer_schedule or not harvest_schedule:
+        print("⚠️ All fields are required!")
         return
-
+    
     plants.append({"plant_id": plant_id, "name": plant_name, "water_schedule": water_schedule})
     save_data(PLANT_DB, plants)
     print("✅ Plant added successfully!")

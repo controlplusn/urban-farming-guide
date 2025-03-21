@@ -116,6 +116,8 @@ class PlantCareSystem:
         for plant in plants:
             print(f"🌿 Name: {plant['name']} | Water Schedule: {plant['water_schedule']}")
         input("\nPress enter to return to the dashboard...")
+    
+    def check_plant_care(self):
 
     def show_plants(self):
         dashboard = PlantsDashboard("plantList.json")
@@ -134,8 +136,9 @@ class PlantCareSystem:
             print("1. Add Plant")
             print("2. Remove Plant")
             print("3. View Added Plants")
-            print("4. View Plants")
-            print("5. Logout")
+            print("4. Check Plant Care Schedule")
+            print("5. View Plants")
+            print("6. Logout")
 
             choice = input("Enter your choice: ")
 
@@ -150,8 +153,11 @@ class PlantCareSystem:
                 self.show_added_plants()
             elif choice == "4":
                 os.system('cls')
-                self.show_plants()
+                self.check_plant_care()
             elif choice == "5":
+                os.system('cls')
+                self.show_plants()
+            elif choice == "6":
                 print("Logging out... 👋")
                 return
             else:
