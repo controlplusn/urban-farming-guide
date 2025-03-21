@@ -1,3 +1,4 @@
+import os
 import json
 from plantDetailsMenu import PlantDetails
 
@@ -37,13 +38,19 @@ class PlantsDashboard:
         else:
             print("\n⚠ Plant not found! Please enter a valid ID.\n")
 
-# Main program execution
+
 if __name__ == "__main__":
     dashboard = PlantsDashboard("plantList.json")
-    dashboard.display_menu()
 
-    try:
-        user_choice = int(input("\nEnter plant ID: "))
-        dashboard.get_plant_details(user_choice)
-    except ValueError:
-        print("\n⚠ Invalid input! Please enter a number.\n")
+    while True:
+        os.system('cls')    
+        dashboard.display_menu()
+        try:
+            user_choice = int(input("\nEnter plant ID (or 0 to exit): "))
+
+            if user_choice == 0:
+                print("\nExiting program...\n")
+                break  
+            dashboard.get_plant_details(user_choice)
+        except ValueError:
+            print("\n⚠ Invalid input! Please enter a number.\n")

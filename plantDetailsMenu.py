@@ -45,7 +45,7 @@ class PlantDetails:
                 confirm = input("\nAre you sure you want to return to the dashboard? (y/n): ")
                 if confirm.lower() == "y":
                     print("\nReturning to dashboard...\n")
-                    break
+                    return
             else:
                 print("\n⚠ Invalid choice! Please enter a valid option.\n")
         
