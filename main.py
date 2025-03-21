@@ -2,6 +2,7 @@ import json
 import os
 import msvcrt  # For password masking (Windows only)
 from datetime import datetime, timedelta    # for time countdown
+from plants import PlantsDashboard
 
 # File paths for each database
 USER_DB = "users.json"
@@ -137,10 +138,15 @@ def show_users():
 
 # View plants
 def show_plants():
-    plants = load_data(PLANT_DB)
-    print("\n🌱 Plants List:")
-    for plant in plants:
-        print(f"ID: {plant['plant_id']} | Name: {plant['name']} | Water Schedule: {plant['water_schedule']}")
+    dashboard = PlantsDashboard("plantList.json")
+    dashboard.display_menu()
+    
+    try:
+        user_choice = int(input("\nEnter plant ID to view details (or 0 to exit): "))
+        if user_choice != 0:
+            dashboard.get_plant_details(user_choice)
+    except ValueError:
+        print("\n⚠ Invalid input! Please enter a number.\n")
 
 # Check plant maintenance
 def check_plants():
@@ -216,14 +222,20 @@ def menu():
         choice = input("Enter your choice: ")
 
         if choice == "1":
+            os.system('cls')
             add_plant()
         elif choice == "2":
+            os.system('cls')
             remove_plant()
         elif choice == "3":
+            os.system('cls')
             show_users()
         elif choice == "4":
+            os.system('cls')
             show_plants()
+            break
         elif choice == "5":
+            os.system('cls')
             check_plants()
         elif choice == "0":
             print("Logging out... 👋")
@@ -246,6 +258,7 @@ def first_panel():
         elif choice == "2":
             user = login()
             if user:
+                os.system('cls')
                 menu()
         elif choice == "3":
             print("Goodbye! 👋")
