@@ -1,6 +1,6 @@
 import json
 import os
-import msvcrt  # For password masking (Windows only)
+import msvcrt
 from datetime import datetime, timedelta
 from plants import PlantsDashboard
 from add_plant_function import add_plant
