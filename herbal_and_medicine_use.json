@@ -1,0 +1,287 @@
+[
+    {
+      "plant": "Basil",
+      "medicinal_uses": [
+        "Contains antioxidants that help fight free radicals",
+        "Possesses anti-inflammatory properties",
+        "Acts as an antibacterial agent",
+        "May help combat stress and depression",
+        "Supports liver health"
+      ]
+    },
+    {
+      "plant": "Tomato",
+      "medicinal_uses": [
+        "Rich in lycopene, an antioxidant linked to reduced risk of heart disease and cancer",
+        "Contains vitamins C and K, potassium, and folate",
+        "Supports skin health and vision"
+      ]
+    },
+    {
+      "plant": "Mint",
+      "medicinal_uses": [
+        "Aids digestion and relieves indigestion",
+        "Has antimicrobial properties",
+        "Provides relief from headaches",
+        "May improve cold symptoms"
+      ]
+    },
+    {
+      "plant": "Carrot",
+      "medicinal_uses": [
+        "High in beta-carotene, supporting eye health",
+        "Contains antioxidants that may reduce the risk of cancer",
+        "Supports digestive health due to fiber content"
+      ]
+    },
+    {
+      "plant": "Lavender",
+      "medicinal_uses": [
+        "Promotes relaxation and may help alleviate anxiety",
+        "Improves sleep quality",
+        "Has anti-inflammatory and antiseptic properties",
+        "May relieve pain from headaches"
+      ]
+    },
+    {
+      "plant": "Lettuce",
+      "medicinal_uses": [
+        "Provides vitamins A and K",
+        "Contains antioxidants",
+        "May promote hydration due to high water content"
+      ]
+    },
+    {
+      "plant": "Rosemary",
+      "medicinal_uses": [
+        "Improves digestion",
+        "Enhances memory and concentration",
+        "Contains antioxidants and anti-inflammatory compounds",
+        "May boost the immune system"
+      ]
+    },
+    {
+      "plant": "Cabbage",
+      "medicinal_uses": [
+        "Rich in vitamins C and K",
+        "Contains antioxidants that may reduce inflammation",
+        "Supports digestive health"
+      ]
+    },
+    {
+      "plant": "Thyme",
+      "medicinal_uses": [
+        "Possesses antimicrobial properties",
+        "May help relieve coughing",
+        "Contains antioxidants",
+        "Supports respiratory health"
+      ]
+    },
+    {
+      "plant": "Spinach",
+      "medicinal_uses": [
+        "High in vitamins A, C, and K1",
+        "Contains antioxidants like lutein and zeaxanthin",
+        "Supports eye health",
+        "May reduce oxidative stress"
+      ]
+    },
+    {
+      "plant": "Ginger",
+      "medicinal_uses": [
+        "Relieves nausea and vomiting",
+        "Possesses anti-inflammatory properties",
+        "May reduce muscle pain and soreness",
+        "Lowers blood sugar levels"
+      ]
+    },
+    {
+      "plant": "Pepper",
+      "medicinal_uses": [
+        "Contains capsaicin, which has pain-relief properties",
+        "May boost metabolism",
+        "Rich in vitamins A and C",
+        "Supports immune health"
+      ]
+    },
+    {
+      "plant": "Chamomile",
+      "medicinal_uses": [
+        "Promotes relaxation and improves sleep quality",
+        "Possesses anti-inflammatory and antioxidant properties",
+        "May aid digestion",
+        "Relieves menstrual pain"
+      ]
+    },
+    {
+      "plant": "Onion",
+      "medicinal_uses": [
+        "Contains antioxidants like quercetin",
+        "May reduce the risk of heart disease",
+        "Possesses antibacterial properties",
+        "Supports bone health"
+      ]
+    },
+    {
+      "plant": "Garlic",
+      "medicinal_uses": [
+        "Boosts immune function",
+        "Reduces blood pressure",
+        "Improves cholesterol levels",
+        "Contains antioxidants that may prevent Alzheimer's disease"
+      ]
+    },
+    {
+      "plant": "Oregano",
+      "medicinal_uses": [
+        "Possesses antibacterial and antiviral properties",
+        "Rich in antioxidants",
+        "May reduce inflammation",
+        "Supports respiratory health"
+      ]
+    },
+    {
+      "plant": "Pumpkin",
+      "medicinal_uses": [
+        "High in vitamins A and C",
+        "Contains antioxidants like beta-carotene",
+        "Supports eye health",
+        "May boost immunity"
+      ]
+    },
+    {
+      "plant": "Aloe Vera",
+      "medicinal_uses": [
+        "Soothes skin irritations and burns",
+        "Promotes wound healing",
+        "Possesses anti-inflammatory properties",
+        "May aid digestion"
+      ]
+    },
+    {
+      "plant": "Cilantro",
+      "medicinal_uses": [
+        "Contains antioxidants that fight free radicals",
+        "May help remove heavy metals from the body",
+        "Supports digestive health",
+        "Possesses antimicrobial properties"
+      ]
+    },
+    {
+      "plant": "Strawberry",
+      "medicinal_uses": [
+        "Rich in vitamins C and manganese",
+        "Contains antioxidants like anthocyanins",
+        "Supports heart health",
+        "May regulate blood sugar levels"
+      ]
+    },
+    {
+      "plant": "Echinacea",
+      "medicinal_uses": [
+        "Boosts the immune system",
+        "May reduce the duration of colds",
+        "Possesses anti-inflammatory properties",
+        "May lower blood sugar levels"
+      ]
+    },
+    {
+      "plant": "Beetroot",
+      "medicinal_uses": [
+        "Rich in nitrates, which may lower blood pressure",
+        "Contains antioxidants like betalains",
+        "Supports liver health",
+        "May improve exercise performance"
+      ]
+    },
+    {
+      "plant": "Dandelion",
+      "medicinal_uses": [
+        "Rich in vitamins A, C, and K",
+        "Supports liver health",
+        "Possesses diuretic properties",
+        "May aid in blood sugar management"
+      ]
+    },
+    {
+      "plant": "Zucchini",
+      "medicinal_uses": [
+        "High in vitamins A and C",
+        "Contains antioxidants like lutein and zeaxanthin",
+        "Supports digestion due to fiber content",
+        "May promote eye health"
+      ]
+    },
+    {
+      "plant": "Turmeric",
+      "medicinal_uses": [
+        "Contains curcumin, which has strong anti-inflammatory properties",
+        "Rich in antioxidants",
+        "May improve brain function",
+        "Supports joint health"
+      ]
+    },
+    {
+      "plant": "Blueberry",
+      "medicinal_uses": [
+        "High in antioxidants like anthocyanins",
+        "Supports heart health",
+        "May improve brain function",
+        "Helps regulate blood sugar levels"
+      ]
+    },
+    {
+      "plant": "Parsley",
+      "medicinal_uses": [
+        "Rich in vitamins A, C, and K",
+        "Contains antioxidants like flavonoids",
+        "Supports bone health",
+        "May aid in digestion"
+      ]
+    },
+    {
+      "plant": "Kale",
+      "medicinal_uses": [
+        "Rich in vitamins A, C, and K",
+        "Contains powerful antioxidants",
+        "Supports heart health",
+        "May help lower cholesterol levels"
+      ]
+    },
+    {
+      "plant": "Pineapple",
+      "medicinal_uses": [
+        "Contains bromelain, which aids digestion",
+        "Rich in vitamin C and manganese",
+        "Supports immune function",
+        "May reduce inflammation"
+      ]
+    },
+    {
+      "plant": "Eggplant",
+      "medicinal_uses": [
+        "High in fiber, supporting digestion",
+        "Contains antioxidants like nasunin",
+        "May help regulate blood sugar levels",
+        "Supports heart health"
+      ]
+    },
+    {
+      "plant": "Ampalaya",
+      "medicinal_uses": [
+        "Traditionally used to lower blood sugar levels",
+        "Contains compounds with anti-diabetic properties",
+        "Supports digestion",
+        "May boost immune function"
+      ]
+    },
+    {
+      "plant": "Lagundi",
+      "medicinal_uses": [
+        "Used to treat coughs and respiratory issues",
+        "Possesses anti-inflammatory properties",
+        "May help relieve fever",
+        "Traditionally used for pain relief"
+      ]
+    }
+]
