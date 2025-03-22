@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 from plants import PlantsDashboard
 from add_plant_function import add_plant
 import time
+from authentication import Authentication
 
 class PlantCareSystem:
     USER_DB = "users.json"
@@ -14,6 +15,7 @@ class PlantCareSystem:
 
     def __init__(self):
         self.current_user = None
+        self.auth = Authentication()
 
     def load_data(self, file):
         if not os.path.exists(file):
@@ -27,67 +29,6 @@ class PlantCareSystem:
     def save_data(self, file, data):
         with open(file, "w") as f:
             json.dump(data, f, indent=4)
-
-    def get_password(self, prompt="Enter password: "):
-        print(prompt, end="", flush=True)
-        password = []
-        while True:
-            char = msvcrt.getch()
-            if char == b"\r":
-                print("")
-                break
-            elif char == b"\b": 
-                if password:
-                    password.pop()
-                    print("\b \b", end="", flush=True)
-            else:
-                password.append(char.decode("utf-8"))
-                print("*", end="", flush=True)
-        return "".join(password)
-
-    def generate_user_id(self):
-        users = self.load_data(self.USER_DB)
-        return max((user["user_id"] for user in users), default=0) + 1
-
-    def register_user(self):
-        users = self.load_data(self.USER_DB)
-        user_id = self.generate_user_id()
-        name = input("Enter name: ").strip()
-        email = input("Enter email: ").strip()
-        
-        if not name or not email:
-            print("⚠️ Name and email cannot be empty!")
-            return
-        
-        if any(user["email"] == email for user in users):
-            print("⚠️ Email already registered!")
-            return
-        
-        if any(user["name"].lower() == name.lower() for user in users):
-            print("⚠️ Username already taken!")
-            return
-        
-        password = self.get_password("Enter password: ")
-        if not password:
-            print("⚠️ Password cannot be empty!")
-            return
-        
-        users.append({"user_id": user_id, "name": name, "email": email, "password": password})
-        self.save_data(self.USER_DB, users)
-        print("✅ User registered successfully!")
-
-    def login(self):
-        users = self.load_data(self.USER_DB)
-        email = input("Enter email: ").strip()
-        password = self.get_password("Enter password: ")
-
-        for user in users:
-            if user["email"] == email and user["password"] == password:
-                print(f"✅ Welcome back, {user['name']}!")
-                self.current_user = user
-                return True
-        print("❌ Invalid email or password!")
-        return False
 
     def remove_plant(self):
         plants = self.load_data(self.PLANT_DB)
@@ -124,6 +65,7 @@ class PlantCareSystem:
             print("⚠️ No plants available!")
             return
 
+        print("\n")
         print("\n🌱 Check Plant Care Schedule:\n")
         current_time = int(time.time())  # current timestamp in seconds
 
@@ -191,7 +133,7 @@ class PlantCareSystem:
             print("\n🌿 Plant Care Management System 🌿")
             print("1. Add Plant")
             print("2. Remove Plant")
-            print("3. View Added Plants")
+            print("3. My Personal Plants")
             print("4. Check Plant Care Schedule")
             print("5. View Plants")
             print("6. Logout")
@@ -229,9 +171,9 @@ class PlantCareSystem:
             choice = input("Enter your choice: ")
 
             if choice == "1":
-                self.register_user()
+                self.auth.register_user()
             elif choice == "2":
-                if self.login():
+                if self.auth.login():
                     os.system('cls')
                     self.menu()
             elif choice == "3":

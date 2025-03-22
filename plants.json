@@ -5,9 +5,9 @@
         "water_schedule": 1,
         "fertilize_schedule": 2,
         "harvest_schedule": 3,
-        "last_watered": 1742575448,
-        "last_fertilized": 1742575448,
-        "last_harvested": 1742575448
+        "last_watered": 1742606296,
+        "last_fertilized": 1742606296,
+        "last_harvested": 1742606296
     },
     {
         "plant_id": 2,
@@ -25,8 +25,18 @@
         "water_schedule": 4,
         "fertilize_schedule": 5,
         "harvest_schedule": 3,
-        "last_watered": 1742575326,
-        "last_fertilized": 1742575326,
-        "last_harvested": 1742575507
+        "last_watered": 1742606130,
+        "last_fertilized": 1742606130,
+        "last_harvested": 1742606130
+    },
+    {
+        "plant_id": 4,
+        "name": "Mahogany",
+        "water_schedule": 12,
+        "fertilize_schedule": 10,
+        "harvest_schedule": 8,
+        "last_watered": 1742606647,
+        "last_fertilized": 1742606647,
+        "last_harvested": 1742606647
     }
 ]
