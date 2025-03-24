@@ -7,7 +7,6 @@ import time
 from authentication import Authentication
 
 class PlantCareSystem:
-    USER_DB = "users.json"
     PLANT_DB = "plants.json"
     REMINDER_DB = "reminders.json"
     MAINTENANCE_DB = "maintenance.json"
