@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 from plants import PlantsDashboard
 from add_plant_function import add_plant
 import time
-from authentication import Authentication
+from auth.authentication import Authentication
 
 class PlantCareSystem:
     PLANT_DB = "plants.json"
